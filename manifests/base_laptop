@@ -1,0 +1,17 @@
+<dict>
+        <key>catalogs</key>
+        <array>
+            <string>testing</string>
+        </array>
+	<key>included_manifests</key>
+        <array>
+                <string>laptop_software</string>
+        </array>
+	<key>managed_installs</key>
+        <array>
+                <string>Firefox</string>
+		<string>Silverlight</string>
+		<string>Flip4Mac WMV</string>
+		<string>Office2011</string>
+        </array>
+</dict>

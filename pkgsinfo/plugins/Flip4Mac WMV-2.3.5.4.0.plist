@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Flip4Mac WMV QuickTime components, plug-ins, and preference pane.</string>
+	<key>display_name</key>
+	<string>Flip4Mac WMV</string>
+	<key>installed_size</key>
+	<integer>58208</integer>
+	<key>installer_item_hash</key>
+	<string>962292f1fc4070b3d94e5d76ed2f9500e424da28caa5609ab858164b83857934</string>
+	<key>installer_item_location</key>
+	<string>plugins/Flip4Mac WMV 2.3.5.4-2.3.5.4.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>24047</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Flip4Mac WMV</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Flip4Mac QuickTime Components.pkg</string>
+			<key>installed_size</key>
+			<integer>24016</integer>
+			<key>name</key>
+			<string>QuickTime Components</string>
+			<key>packageid</key>
+			<string>net.telestream.wmv.components</string>
+			<key>version</key>
+			<string>2.3.5.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Flip4Mac Web Plugins.pkg</string>
+			<key>installed_size</key>
+			<integer>812</integer>
+			<key>name</key>
+			<string>Web Browser Support</string>
+			<key>packageid</key>
+			<string>net.telestream.wmv.plugins</string>
+			<key>version</key>
+			<string>2.3.5.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Silverlight.pkg</string>
+			<key>installed_size</key>
+			<integer>33380</integer>
+			<key>packageid</key>
+			<string>com.microsoft.installSilverlightPlugin</string>
+			<key>version</key>
+			<string>4.0.50826.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.3.5.4.0</string>
+</dict>
+</plist>

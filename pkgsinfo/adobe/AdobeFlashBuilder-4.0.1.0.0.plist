@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Flash Builder</string>
+	<key>installed_size</key>
+	<integer>256168</integer>
+	<key>installer_item_hash</key>
+	<string>c16124ea238323546f641fa62e39062dd1a490a200cc47c07625f3901759a328</string>
+	<key>installer_item_location</key>
+	<string>adobe/flashbuilder401-patch-mac-277662.dmg</string>
+	<key>installer_item_size</key>
+	<integer>287285</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5PatchInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{B198547F-579A-4CE1-AC61-558130922958}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobeFlashBuilder</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{B198547F-579A-4CE1-AC61-558130922958}</string>
+			<key>display_name</key>
+			<string>Adobe Flash Builder</string>
+			<key>installed_size</key>
+			<integer>256168</integer>
+			<key>version</key>
+			<string>4.0.1.0.0</string>
+		</dict>
+	</array>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>4.0.1.0.0</string>
+</dict>
+</plist>

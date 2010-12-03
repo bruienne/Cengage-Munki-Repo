@@ -1,0 +1,31 @@
+<dict>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+
+		<key>included_manifests</key>
+		<array>
+			<string>cengage_munki_common_updates_apps</string>
+			<string>cengage_munki_common_updates_plugins</string>
+			<string>cengage_munki_laptop_updates_apps</string>
+			<string>cengage_munki_laptop_updates_plugins</string>
+			<string>cengage_munki_deployment_adobecs5mc</string>
+		</array>
+
+		<key>managed_installs</key>
+		<array>
+		</array>
+
+		<key>managed_uninstalls</key>
+		<array>
+		</array>
+
+		<key>managed_updates</key>
+		<array>
+		</array>
+
+		<key>optional_installs</key>
+		<array>
+		</array>
+</dict>

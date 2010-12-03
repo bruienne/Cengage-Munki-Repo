@@ -1,0 +1,28 @@
+<dict>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+
+		<key>included_manifests</key>
+		<array>
+		</array>
+
+		<key>managed_installs</key>
+		<array>
+		</array>
+
+		<key>managed_uninstalls</key>
+		<array>
+		</array>
+
+		<key>managed_updates</key>
+		<array>
+			<string>mac_SSLVpn</string>
+		</array>
+
+		<key>optional_installs</key>
+		<array>
+		</array>
+
+</dict>

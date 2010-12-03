@@ -1,0 +1,13 @@
+<dict>
+        <key>catalogs</key>
+        <array>
+			<string>testing</string>
+        </array>
+        <key>managed_installs</key>
+        <array>
+			<string>Firefox</string>
+			<string>Silverlight</string>
+			<string>Flip4Mac WMV</string>
+			<string>Adobe Flash Player</string>
+        </array>
+</dict>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe XMP Panels CS5</string>
+	<key>installed_size</key>
+	<integer>85</integer>
+	<key>installer_item_hash</key>
+	<string>7794c294b73a263140bbd69248bbc8f0d94f7b8fb38410d227a73cf82fb6fe77</string>
+	<key>installer_item_location</key>
+	<string>adobe/AdobeXMPPanelsAll-AdobeUpdate.dmg</string>
+	<key>installer_item_size</key>
+	<integer>967</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5PatchInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{6F064E9A-480A-4B35-9765-533F8D3F472E}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobeXMPPanelsCS5</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6F064E9A-480A-4B35-9765-533F8D3F472E}</string>
+			<key>display_name</key>
+			<string>Adobe XMP Panels CS5</string>
+			<key>installed_size</key>
+			<integer>85</integer>
+			<key>version</key>
+			<string>3.1.0.0.0</string>
+		</dict>
+	</array>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>3.1.0.0.0</string>
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Player for Embedding</string>
+	<key>installed_size</key>
+	<integer>139677</integer>
+	<key>installer_item_hash</key>
+	<string>14d9406a742a5c4296da67cc4f1718717949734b3d9859098927ebceb4282df1</string>
+	<key>installer_item_location</key>
+	<string>adobe/AdobeAPE3.1_mul_AdobeUpdate.dmg</string>
+	<key>installer_item_size</key>
+	<integer>13007</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5PatchInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{42CCA701-73BF-48D4-86DA-27AE807163EF}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobePlayerforEmbedding</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{42CCA701-73BF-48D4-86DA-27AE807163EF}</string>
+			<key>display_name</key>
+			<string>Adobe Player for Embedding</string>
+			<key>installed_size</key>
+			<integer>139677</integer>
+			<key>version</key>
+			<string>3.1.0.0.0</string>
+		</dict>
+	</array>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>3.1.0.0.0</string>
+</dict>
+</plist>

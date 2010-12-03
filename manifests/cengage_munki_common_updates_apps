@@ -1,0 +1,33 @@
+<dict>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+
+		<key>included_manifests</key>
+		<array>
+		</array>
+
+		<key>managed_installs</key>
+		<array>
+		</array>
+
+		<key>managed_uninstalls</key>
+		<array>
+		</array>
+
+		<key>managed_updates</key>
+		<array>
+			<string>TextWrangler</string>
+			<string>Cyberduck</string>
+			<string>Office2008</string>
+			<string>Office2008_Update</string>
+			<string>Office2011Update</string>
+			<string>Firefox</string>
+		</array>
+
+		<key>optional_installs</key>
+		<array>
+		</array>
+
+</dict>

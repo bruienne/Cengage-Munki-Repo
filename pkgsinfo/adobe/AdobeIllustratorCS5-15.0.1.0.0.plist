@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Illustrator CS5</string>
+	<key>installed_size</key>
+	<integer>0</integer>
+	<key>installer_item_hash</key>
+	<string>1789884bee5cdc9ffc4980f0d4dfa07745515e1f7628c1e4f535c70b897b2d52</string>
+	<key>installer_item_location</key>
+	<string>adobe/Adobe Illustrator CS5 Update 15.0.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>13683</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5PatchInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{7A75E573-6909-4D48-BDFA-D8ED118605A6}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobeIllustratorCS5</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{7A75E573-6909-4D48-BDFA-D8ED118605A6}</string>
+			<key>display_name</key>
+			<string>Adobe Illustrator CS5</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>15.0.1.0.0</string>
+		</dict>
+	</array>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>15.0.1.0.0</string>
+</dict>
+</plist>
