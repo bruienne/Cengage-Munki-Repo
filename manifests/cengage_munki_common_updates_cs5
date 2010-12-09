@@ -3,22 +3,21 @@
 		<array>
 			<string>testing</string>
 		</array>
-	<key>included_manifests</key>
+
+		<key>included_manifests</key>
 		<array>
 		</array>
+
 		<key>managed_installs</key>
 		<array>
-			<string>Office2011</string>
 		</array>
-	<key>managed_updates</key>
+
+		<key>managed_uninstalls</key>
 		<array>
-			<string>Cyberduck</string>
-			<string>Firefox</string>
-			<string>Silverlight</string>
-			<string>Flip4Mac WMV</string>
-			<string>Office 2008 Update</string>
-			<string>Office2011Update</string>
-			<string>AcrobatPro9</string>
+		</array>
+
+		<key>managed_updates</key>
+		<array>
 			<string>CreativeSuite5MasterCollection</string>
 			<string>AcrobatPro9Update</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -34,4 +33,9 @@
 			<string>AdobeXMPPanelsCS5</string>
 			<string>AdobeCommunityHelpClientWrapper</string>
 		</array>
+
+		<key>optional_installs</key>
+		<array>
+		</array>
+
 </dict>

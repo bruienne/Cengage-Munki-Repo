@@ -13,22 +13,22 @@
 	<key>description</key>
 	<string></string>
 	<key>display_name</key>
-	<string>Adobe Photoshop CS5 Support</string>
+	<string>Adobe Illustrator CS5</string>
 	<key>installed_size</key>
-	<integer>313007</integer>
+	<integer>0</integer>
 	<key>installer_item_hash</key>
-	<string>0c724888aca6afa1534d10fcc8d8b097b4bb722a7bead219b1c104c3b8c0c37a</string>
+	<string>8d5b67c614fd2e3f419bf9d0d26d3928bac5b367d086fd14b8a1fc70a4777e63</string>
 	<key>installer_item_location</key>
-	<string>adobe/Adobe Photoshop CS5 Update.dmg</string>
+	<string>adobe/AdobeIllustrator_15.0.2.dmg</string>
 	<key>installer_item_size</key>
-	<integer>11549</integer>
+	<integer>14637</integer>
 	<key>installer_type</key>
 	<string>AdobeCS5PatchInstaller</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>path</key>
-			<string>/Library/Application Support/Adobe/Uninstall/{5973F911-18DE-4ED0-A227-0F6E2E2BDA57}.db</string>
+			<string>/Library/Application Support/Adobe/Uninstall/{7A75E573-6909-4D48-BDFA-D8ED118605A7}.db</string>
 			<key>type</key>
 			<string>file</string>
 		</dict>
@@ -36,28 +36,18 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>AdobePhotoshopCS5Support</string>
+	<string>AdobeIllustratorCS5</string>
 	<key>payloads</key>
 	<array>
 		<dict>
 			<key>AdobeCode</key>
-			<string>{70906323-AC20-42E8-B41A-D2DBB94D925F}</string>
+			<string>{7A75E573-6909-4D48-BDFA-D8ED118605A7}</string>
 			<key>display_name</key>
-			<string>Adobe Photoshop CS5</string>
-			<key>installed_size</key>
-			<integer>313007</integer>
-			<key>version</key>
-			<string>12.0.1.1.0</string>
-		</dict>
-		<dict>
-			<key>AdobeCode</key>
-			<string>{5973F911-18DE-4ED0-A227-0F6E2E2BDA57}</string>
-			<key>display_name</key>
-			<string>Adobe Photoshop CS5 Support</string>
+			<string>Adobe Illustrator CS5</string>
 			<key>installed_size</key>
 			<integer>0</integer>
 			<key>version</key>
-			<string>12.0.1.1.0</string>
+			<string>15.0.2.0.0</string>
 		</dict>
 	</array>
 	<key>uninstallable</key>
@@ -66,7 +56,11 @@
 	<array>
 		<string>CreativeSuite5MasterCollection</string>
 	</array>
+	<key>update_for</key>
+	<array>
+		<string>CreativeSuite5MasterCollection</string>
+	</array>
 	<key>version</key>
-	<string>12.0.1.1.0</string>
+	<string>15.0.2.0.0</string>
 </dict>
 </plist>

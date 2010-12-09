@@ -24,6 +24,8 @@
 	<integer>13007</integer>
 	<key>installer_type</key>
 	<string>AdobeCS5PatchInstaller</string>
+	<key>copy_local</key>
+	<true/>
 	<key>installs</key>
 	<array>
 		<dict>
@@ -52,6 +54,10 @@
 	</array>
 	<key>uninstallable</key>
 	<false/>
+	<key>update_for</key>
+	<array>
+		<string>CreativeSuite5MasterCollection</string>
+	</array>
 	<key>version</key>
 	<string>3.1.0.0.0</string>
 </dict>

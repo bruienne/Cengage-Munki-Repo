@@ -7,6 +7,7 @@
 		<key>included_manifests</key>
 		<array>
 			<string>cengage_munki_common_updates_apps</string>
+			<string>cengage_munki_common_updates_cs5</string>
 			<string>cengage_munki_common_updates_plugins</string>
 			<string>cengage_munki_desktop_updates_apps</string>
 			<string>cengage_munki_desktop_updates_plugins</string>

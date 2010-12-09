@@ -302,6 +302,10 @@
 	</array>
 	<key>uninstallable</key>
 	<false/>
+	<key>update_for</key>
+	<array>
+		<string>CreativeSuite5MasterCollection</string>
+	</array>
 	<key>version</key>
 	<string>7.0.2.522.0</string>
 </dict>

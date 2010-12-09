@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Installs updated Adobe AIR and Adobe Community Help Client</string>
+	<key>display_name</key>
+	<string>Adobe Community Help Client</string>
+	<key>installer_item_hash</key>
+	<string>85754c7be01bbe6b2200dc3777d288520e8eb3cc2e6d402d13c65bbb5ce391a9</string>
+	<key>installer_item_location</key>
+	<string>adobe/AdobeCommunityHelpClientWrapper.dmg</string>
+	<key>installer_item_size</key>
+	<integer>23313</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobeCommunityHelpClientWrapper</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>AdobeCommunityHelpClientWrapper.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>com.googlecode.munki.pkg.adobehelpinstaller</string>
+			<key>version</key>
+			<string>3.3.0.800.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>CreativeSuite5MasterCollection</string>
+	</array>
+	<key>version</key>
+	<string>3.3.0.800.0</string>
+</dict>
+</plist>

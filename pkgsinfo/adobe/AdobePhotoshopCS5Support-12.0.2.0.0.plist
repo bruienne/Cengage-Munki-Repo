@@ -15,20 +15,20 @@
 	<key>display_name</key>
 	<string>Adobe Photoshop CS5 Support</string>
 	<key>installed_size</key>
-	<integer>313007</integer>
+	<integer>399214</integer>
 	<key>installer_item_hash</key>
-	<string>0c724888aca6afa1534d10fcc8d8b097b4bb722a7bead219b1c104c3b8c0c37a</string>
+	<string>08dc735beeefd8b2e73a5eb123aeab0e4b39dcad3d5331f49c43f9a32744ff1f</string>
 	<key>installer_item_location</key>
-	<string>adobe/Adobe Photoshop CS5 Update.dmg</string>
+	<string>adobe/AdobePhotoshop12_2-mul-AdobeUpdate.dmg</string>
 	<key>installer_item_size</key>
-	<integer>11549</integer>
+	<integer>14973</integer>
 	<key>installer_type</key>
 	<string>AdobeCS5PatchInstaller</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>path</key>
-			<string>/Library/Application Support/Adobe/Uninstall/{5973F911-18DE-4ED0-A227-0F6E2E2BDA57}.db</string>
+			<string>/Library/Application Support/Adobe/Uninstall/{8B187308-57C1-49B9-8A6A-FAB3F0D10D0A}.db</string>
 			<key>type</key>
 			<string>file</string>
 		</dict>
@@ -41,32 +41,32 @@
 	<array>
 		<dict>
 			<key>AdobeCode</key>
-			<string>{70906323-AC20-42E8-B41A-D2DBB94D925F}</string>
+			<string>{648BBEB0-4E70-4D89-96CD-41C80A63686D}</string>
 			<key>display_name</key>
 			<string>Adobe Photoshop CS5</string>
 			<key>installed_size</key>
-			<integer>313007</integer>
+			<integer>399214</integer>
 			<key>version</key>
-			<string>12.0.1.1.0</string>
+			<string>12.0.2.0.0</string>
 		</dict>
 		<dict>
 			<key>AdobeCode</key>
-			<string>{5973F911-18DE-4ED0-A227-0F6E2E2BDA57}</string>
+			<string>{8B187308-57C1-49B9-8A6A-FAB3F0D10D0A}</string>
 			<key>display_name</key>
 			<string>Adobe Photoshop CS5 Support</string>
 			<key>installed_size</key>
 			<integer>0</integer>
 			<key>version</key>
-			<string>12.0.1.1.0</string>
+			<string>12.0.2.0.0</string>
 		</dict>
 	</array>
 	<key>uninstallable</key>
 	<false/>
-	<key>update_for</key>
-	<array>
-		<string>CreativeSuite5MasterCollection</string>
-	</array>
+        <key>update_for</key>
+        <array>
+                <string>CreativeSuite5MasterCollection</string>
+        </array>	
 	<key>version</key>
-	<string>12.0.1.1.0</string>
+	<string>12.0.2.0.0</string>
 </dict>
 </plist>
