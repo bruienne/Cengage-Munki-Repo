@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>installer_item_hash</key>
+	<string>22fd61418ea2d3e5076f7547a3cd61bac1f4fe107045bc6357c602cea01c007f</string>
+	<key>installer_item_location</key>
+	<string>apps/Firefox 3.6.13.dmg</string>
+	<key>installer_item_size</key>
+	<integer>19121</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.mozilla.firefox</string>
+			<key>CFBundleName</key>
+			<string>Firefox</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.6.13</string>
+			<key>path</key>
+			<string>/Applications/Firefox.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Firefox.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Firefox</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.6.13.0.0</string>
+</dict>
+</plist>

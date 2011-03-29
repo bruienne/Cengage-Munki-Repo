@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>TeamViewer Quick Support Client</string>
+	<key>installer_item_hash</key>
+	<string>c10638285c90cf26f2b19a286019f9d090b7b55eda58d4052278e381b10bda3e</string>
+	<key>installer_item_location</key>
+	<string>apps/TeamViewerQS.dmg</string>
+	<key>installer_item_size</key>
+	<integer>9942</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.TeamViewer.TeamViewerQS</string>
+			<key>CFBundleName</key>
+			<string>TeamViewerQS</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.6</string>
+			<key>path</key>
+			<string>/Applications/TeamViewerQS.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>TeamViewerQS.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>TeamViewerQS</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.6.0.0.0</string>
+</dict>
+</plist>

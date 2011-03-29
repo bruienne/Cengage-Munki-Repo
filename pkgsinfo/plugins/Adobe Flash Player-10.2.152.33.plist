@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>PlugIn</string>
+	<key>installed_size</key>
+	<integer>5256</integer>
+	<key>installer_item_hash</key>
+	<string>c806acf9f255ddbe06c45d8275c74727ae458a7b3d9b27c778c0c22dfdeeeda0</string>
+	<key>installer_item_location</key>
+	<string>plugins/Adobe Flash Player 10.2.152.33.dmg</string>
+	<key>installer_item_size</key>
+	<integer>5434</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Adobe Flash Player</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Adobe Flash Player 10.2.152.33.pkg</string>
+			<key>installed_size</key>
+			<integer>5256</integer>
+			<key>packageid</key>
+			<string>com.adobe.pkg.FlashPlayer</string>
+			<key>version</key>
+			<string>10.2.152.33</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>10.2.152.33</string>
+</dict>
+</plist>
