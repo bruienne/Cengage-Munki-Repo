@@ -15,6 +15,7 @@
 
 		<key>managed_installs</key>
 		<array>
+			<string>MunkiScripts</string>
 		</array>
 
 		<key>managed_uninstalls</key>

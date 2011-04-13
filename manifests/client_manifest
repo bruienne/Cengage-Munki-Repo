@@ -9,6 +9,7 @@
 		<key>managed_installs</key>
 		<array>
 			<string>Office2011</string>
+			<string>MunkiScripts</string>
 		</array>
 	<key>managed_updates</key>
 		<array>
@@ -16,6 +17,7 @@
 			<string>Firefox</string>
 			<string>Silverlight</string>
 			<string>Flip4Mac WMV</string>
+			<string>TextWrangler</string>
 			<string>Office 2008 Update</string>
 			<string>Office2011Update</string>
 			<string>AcrobatPro9</string>
@@ -30,7 +32,8 @@
 			<string>AdobeInDesignCS5</string>
 			<string>AdobePhotoshopCS5Support</string>
 			<string>AdobePlayerforEmbedding</string>
-			<string>AdobePremiereProCS5</string>
+			<string>AdobePremiereProCS5Update</string>
 			<string>AdobeXMPPanelsCS5</string>
+			<string>VLC media player</string>
 		</array>
 </dict>

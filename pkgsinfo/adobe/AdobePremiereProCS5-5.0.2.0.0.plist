@@ -19,7 +19,7 @@
 	<key>installer_item_hash</key>
 	<string>a8a7747c7684f506a14866934803503dddd4c78b904a788a62dae5fe389765a9</string>
 	<key>installer_item_location</key>
-	<string>adobe/PremiereProTrial-5.0.2-mul-AdobeUpdate.dmg</string>
+	<string>adobe/PremiereProTrial-5.0.2-mul-AdobeUpdate-5.0.2.0.0.dmg</string>
 	<key>installer_item_size</key>
 	<integer>116858</integer>
 	<key>installer_type</key>
@@ -36,7 +36,7 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>AdobePremiereProCS5</string>
+	<string>AdobePremiereProCS5Update</string>
 	<key>payloads</key>
 	<array>
 		<dict>

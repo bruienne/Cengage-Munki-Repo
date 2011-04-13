@@ -3,171 +3,20 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>RestartAction</key>
-		<string>RequireLogout</string>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
 		</array>
-		<key>display_name</key>
-		<string>Adobe Acrobat Pro 9</string>
 		<key>installer_item_hash</key>
-		<string>c46d7a8aed6bc16142a23caf32bb01a8e31c8c75c14d8b2a6ff4cd09455d5700</string>
+		<string>0557eb1f2341d731f2309e530c44dedd1894e2151af0bf66682f57e0b90e22f0</string>
 		<key>installer_item_location</key>
-		<string>adobe/dummy.dmg</string>
+		<string>adobe/APRO930_Mac_WEB_WWEFG.dmg</string>
 		<key>installer_item_size</key>
-		<integer>6277</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.adobe.Acrobat.Pro</string>
-				<key>CFBundleName</key>
-				<string>Acrobat</string>
-				<key>CFBundleShortVersionString</key>
-				<string>9.0.0</string>
-				<key>path</key>
-				<string>/Applications/Adobe Acrobat 9 Pro/Adobe Acrobat Pro.app</string>
-				<key>type</key>
-				<string>application</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.4.0</string>
-		<key>name</key>
-		<string>AcrobatPro9</string>
-		<key>requires</key>
-		<array/>
-		<key>uninstallable</key>
-		<false/>
-		<key>update_for</key>
-		<array/>
-		<key>version</key>
-		<string>9.0.0.0.0</string>
-	</dict>
-	<dict>
-		<key>RestartAction</key>
-		<string>RequireLogout</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>display_name</key>
-		<string>Adobe Acrobat Pro Update</string>
-		<key>installer_item_hash</key>
-		<string>c46d7a8aed6bc16142a23caf32bb01a8e31c8c75c14d8b2a6ff4cd09455d5700</string>
-		<key>installer_item_location</key>
-		<string>adobe/AcroProUpd913_all-9.1.3.dmg</string>
-		<key>installer_item_size</key>
-		<integer>6277</integer>
+		<integer>538121</integer>
 		<key>installer_type</key>
-		<string>AdobeAcrobatUpdater</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.adobe.Acrobat.Pro</string>
-				<key>CFBundleName</key>
-				<string>Acrobat</string>
-				<key>CFBundleShortVersionString</key>
-				<string>9.1.3</string>
-				<key>path</key>
-				<string>/Applications/Adobe Acrobat 9 Pro/Adobe Acrobat Pro.app</string>
-				<key>type</key>
-				<string>application</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.4.0</string>
-		<key>name</key>
-		<string>AcrobatPro9Update</string>
-		<key>requires</key>
-		<array>
-			<string>AcrobatPro9-9.0.0.0.0</string>
-		</array>
-		<key>uninstallable</key>
-		<false/>
-		<key>update_for</key>
-		<array>
-			<string>AcrobatPro9</string>
-		</array>
-		<key>version</key>
-		<string>9.1.3.0.0</string>
-	</dict>
-	<dict>
-		<key>RestartAction</key>
-		<string>RequireLogout</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>display_name</key>
-		<string>Adobe Acrobat Pro Update</string>
-		<key>installer_item_hash</key>
-		<string>6e89f8e139be91773650a6f0e38ea27f763794a767dd68515557a05e39f624a9</string>
-		<key>installer_item_location</key>
-		<string>adobe/AcroProUpd920_all-9.2.0.dmg</string>
-		<key>installer_item_size</key>
-		<integer>170533</integer>
-		<key>installer_type</key>
-		<string>AdobeAcrobatUpdater</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.adobe.Acrobat.Pro</string>
-				<key>CFBundleName</key>
-				<string>Acrobat</string>
-				<key>CFBundleShortVersionString</key>
-				<string>9.2.0</string>
-				<key>path</key>
-				<string>/Applications/Adobe Acrobat 9 Pro/Adobe Acrobat Pro.app</string>
-				<key>type</key>
-				<string>application</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.4.0</string>
-		<key>name</key>
-		<string>AcrobatPro9Update</string>
-		<key>requires</key>
-		<array>
-			<string>AcrobatPro9Update-9.1.3.0.0</string>
-		</array>
-		<key>uninstallable</key>
-		<false/>
-		<key>update_for</key>
-		<array>
-			<string>AcrobatPro9</string>
-		</array>
-		<key>version</key>
-		<string>9.2.0.0.0</string>
-	</dict>
-	<dict>
-		<key>RestartAction</key>
-		<string>RequireLogout</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>display_name</key>
-		<string>Adobe Acrobat Pro Update</string>
-		<key>installer_item_hash</key>
-		<string>563a75be47e1cbc80f93cb910c421f817321eca70b6f4cdb617c5772278f2527</string>
-		<key>installer_item_location</key>
-		<string>adobe/AcroProUpd930_all-9.3.0.dmg</string>
-		<key>installer_item_size</key>
-		<integer>75828</integer>
-		<key>installer_type</key>
-		<string>AdobeAcrobatUpdater</string>
+		<string>copy_from_dmg</string>
 		<key>installs</key>
 		<array>
 			<dict>
@@ -183,20 +32,29 @@
 				<string>application</string>
 			</dict>
 		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>group</key>
+				<string>admin</string>
+				<key>mode</key>
+				<string>go-w</string>
+				<key>source_item</key>
+				<string>Adobe Acrobat 9 Pro</string>
+				<key>user</key>
+				<string>root</string>
+			</dict>
+		</array>
 		<key>minimum_os_version</key>
 		<string>10.4.0</string>
 		<key>name</key>
-		<string>AcrobatPro9Update</string>
-		<key>requires</key>
-		<array>
-			<string>AcrobatPro9Update-9.2.0.0.0</string>
-		</array>
+		<string>AcrobatPro9</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
 		<key>uninstallable</key>
-		<false/>
-		<key>update_for</key>
-		<array>
-			<string>AcrobatPro9</string>
-		</array>
+		<true/>
 		<key>version</key>
 		<string>9.3.0.0.0</string>
 	</dict>
@@ -240,7 +98,7 @@
 		<string>AcrobatPro9Update</string>
 		<key>requires</key>
 		<array>
-			<string>AcrobatPro9Update-9.3.0.0.0</string>
+			<string>AcrobatPro9-9.3.0.0.0</string>
 		</array>
 		<key>uninstallable</key>
 		<false/>
@@ -707,6 +565,100 @@
 		</array>
 		<key>version</key>
 		<string>10.0.1.0.0</string>
+	</dict>
+	<dict>
+		<key>AdobeSetupType</key>
+		<string>ProductInstall</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe After Effects CS5</string>
+		<key>installed_size</key>
+		<integer>872847</integer>
+		<key>installer_item_hash</key>
+		<string>f6f02a357ad3025b734f55ece3e927c4217ad48625b79a96472333e013abde2d</string>
+		<key>installer_item_location</key>
+		<string>adobe/AfterEffectsTrial-10.0.2-mul-AdobeUpdate.dmg</string>
+		<key>installer_item_size</key>
+		<integer>208726</integer>
+		<key>installer_type</key>
+		<string>AdobeCS5PatchInstaller</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/Adobe/Uninstall/{2267CC22-3159-4AE6-AE54-C0C67C8E404B}.db</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>AdobeAfterEffectsCS5</string>
+		<key>payloads</key>
+		<array>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{2267CC22-3159-4AE6-AE54-C0C67C8E404B}</string>
+				<key>display_name</key>
+				<string>Adobe After Effects CS5</string>
+				<key>installed_size</key>
+				<integer>460196</integer>
+				<key>version</key>
+				<string>10.0.2.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{2AF31A97-817A-4D06-8210-4F789A0FF908}</string>
+				<key>display_name</key>
+				<string>Adobe After Effects CS5 Third Party Content</string>
+				<key>installed_size</key>
+				<integer>198545</integer>
+				<key>version</key>
+				<string>10.0.2.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{6025BAFC-3C31-4FA5-91A4-467E5478DAB2}</string>
+				<key>display_name</key>
+				<string>Adobe After Effects CS5 Third Party Content Wrapper</string>
+				<key>installed_size</key>
+				<integer>167270</integer>
+				<key>version</key>
+				<string>10.0.2.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{8A5387E2-7F1A-4FDD-883F-511DC8AA2295}</string>
+				<key>display_name</key>
+				<string>Adobe After Effects CS5 Third Party Royalty Content</string>
+				<key>installed_size</key>
+				<integer>13941</integer>
+				<key>version</key>
+				<string>10.0.2.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{AA52817B-75CD-403A-90E1-6430ABD290E2}</string>
+				<key>display_name</key>
+				<string>Adobe After Effects CS5 Third Party Royalty Content Wrapper</string>
+				<key>installed_size</key>
+				<integer>32895</integer>
+				<key>version</key>
+				<string>10.0.2.0.0</string>
+			</dict>
+		</array>
+		<key>uninstallable</key>
+		<false/>
+		<key>version</key>
+		<string>10.0.2.0.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2119,11 +2071,105 @@
 		<key>display_name</key>
 		<string>Adobe Premiere Pro CS5</string>
 		<key>installed_size</key>
+		<integer>545277</integer>
+		<key>installer_item_hash</key>
+		<string>8de29b6f66570e1f070347bb56045689c58fe9372a6ca4903f343f5a87e58127</string>
+		<key>installer_item_location</key>
+		<string>adobe/PremiereProTrial-5.0.1-mul-AdobeUpdate.dmg</string>
+		<key>installer_item_size</key>
+		<integer>90284</integer>
+		<key>installer_type</key>
+		<string>AdobeCS5PatchInstaller</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.AdobePremierePro</string>
+				<key>CFBundleName</key>
+				<string>Premiere Pro</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.0.1</string>
+				<key>path</key>
+				<string>/Applications/Adobe Premiere Pro CS5/Adobe Premiere Pro CS5.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>AdobePremiereProCS5Update</string>
+		<key>payloads</key>
+		<array>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{2237503C-D0F7-4B21-AC48-00F2D6E95DED}</string>
+				<key>display_name</key>
+				<string>Adobe Premiere Pro CS5</string>
+				<key>installed_size</key>
+				<integer>487045</integer>
+				<key>version</key>
+				<string>5.0.1.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{A0B56953-C063-46A5-96E2-A0B9DB06CDA6}</string>
+				<key>display_name</key>
+				<string>Adobe Premiere Pro CS5 Third Party Content Wrapper</string>
+				<key>installed_size</key>
+				<integer>11238</integer>
+				<key>version</key>
+				<string>5.0.1.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{235B2E58-96B8-475E-B7C2-0FA89135E964}</string>
+				<key>display_name</key>
+				<string>Adobe Premiere Pro CS5 Third Party Royalty Content</string>
+				<key>installed_size</key>
+				<integer>13871</integer>
+				<key>version</key>
+				<string>5.0.1.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{CF5A7550-1B57-43A5-94EE-7199F6F1BDC0}</string>
+				<key>display_name</key>
+				<string>Adobe Premiere Pro CS5 Third Party Royalty Content Wrapper</string>
+				<key>installed_size</key>
+				<integer>33123</integer>
+				<key>version</key>
+				<string>5.0.1.0.0</string>
+			</dict>
+		</array>
+		<key>uninstallable</key>
+		<false/>
+		<key>update_for</key>
+		<array>
+			<string>CreativeSuite5MasterCollection</string>
+		</array>
+		<key>version</key>
+		<string>5.0.1</string>
+	</dict>
+	<dict>
+		<key>AdobeSetupType</key>
+		<string>ProductInstall</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe Premiere Pro CS5</string>
+		<key>installed_size</key>
 		<integer>700120</integer>
 		<key>installer_item_hash</key>
 		<string>a8a7747c7684f506a14866934803503dddd4c78b904a788a62dae5fe389765a9</string>
 		<key>installer_item_location</key>
-		<string>adobe/PremiereProTrial-5.0.2-mul-AdobeUpdate.dmg</string>
+		<string>adobe/PremiereProTrial-5.0.2-mul-AdobeUpdate-5.0.2.0.0.dmg</string>
 		<key>installer_item_size</key>
 		<integer>116858</integer>
 		<key>installer_type</key>
@@ -2140,7 +2186,7 @@
 		<key>minimum_os_version</key>
 		<string>10.4.0</string>
 		<key>name</key>
-		<string>AdobePremiereProCS5</string>
+		<string>AdobePremiereProCS5Update</string>
 		<key>payloads</key>
 		<array>
 			<dict>
@@ -2209,31 +2255,37 @@
 		<key>installed_size</key>
 		<integer>700140</integer>
 		<key>installer_item_hash</key>
-		<string>142f52693f3d0b8c9d6815b1daf46620c70cdc2dfbaed71410292fe53a7405c1</string>
+		<string>c1a30c67a6b56de33967eefd04df3bbf300fe02888add1ada77abfcce1ffff64</string>
 		<key>installer_item_location</key>
-		<string>adobe/PremiereProRetail-5.0.3-mul-AdobeUpdate.dmg</string>
+		<string>adobe/PremiereProTrial-5.0.3-mul-AdobeUpdate.dmg</string>
 		<key>installer_item_size</key>
-		<integer>116806</integer>
+		<integer>116791</integer>
 		<key>installer_type</key>
 		<string>AdobeCS5PatchInstaller</string>
 		<key>installs</key>
 		<array>
 			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.AdobePremierePro</string>
+				<key>CFBundleName</key>
+				<string>Premiere Pro</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.0.3</string>
 				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{FDE4CB87-FDB7-40CE-A6D9-189E09FCABE8}.db</string>
+				<string>/Applications/Adobe Premiere Pro CS5/Adobe Premiere Pro CS5.app</string>
 				<key>type</key>
-				<string>file</string>
+				<string>application</string>
 			</dict>
 		</array>
 		<key>minimum_os_version</key>
 		<string>10.4.0</string>
 		<key>name</key>
-		<string>AdobePremiereProCS5</string>
+		<string>AdobePremiereProCS5Update</string>
 		<key>payloads</key>
 		<array>
 			<dict>
 				<key>AdobeCode</key>
-				<string>{FDE4CB87-FDB7-40CE-A6D9-189E09FCABE8}</string>
+				<string>{2A1F5828-6437-498B-A16B-C7E3ADC4D809}</string>
 				<key>display_name</key>
 				<string>Adobe Premiere Pro CS5</string>
 				<key>installed_size</key>
@@ -2272,10 +2324,18 @@
 				<string>5.0.3.0.0</string>
 			</dict>
 		</array>
+		<key>requires</key>
+		<array>
+			<string>AdobePremiereProCS5Update-5.0.1</string>
+		</array>
 		<key>uninstallable</key>
 		<false/>
+		<key>update_for</key>
+		<array>
+			<string>CreativeSuite5MasterCollection</string>
+		</array>
 		<key>version</key>
-		<string>5.0.3.0.0</string>
+		<string>5.0.3</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3993,6 +4053,100 @@
 		<array>
 			<string>testing</string>
 		</array>
+		<key>forced_install</key>
+		<true/>
+		<key>installer_item_hash</key>
+		<string>d0133f6497a91789be5faed4146f9d1e64311c0784153db1ac549fe47ebd401d</string>
+		<key>installer_item_location</key>
+		<string>apps/MunkiScripts-1.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>15</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>md5checksum</key>
+				<string>b5601d7d7bac7456be3296a46c040aa0</string>
+				<key>path</key>
+				<string>/usr/local/munki/preflight</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>30b3dccf9272e35abd67e99eea13fdd5</string>
+				<key>path</key>
+				<string>/usr/local/munki/postflight</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>92b8a05fae64439e93a80d2bea049d04</string>
+				<key>path</key>
+				<string>/usr/local/munki/report_broken_client</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/usr/local/munki</string>
+				<key>group</key>
+				<string>wheel</string>
+				<key>mode</key>
+				<string>go-w</string>
+				<key>source_item</key>
+				<string>preflight</string>
+				<key>user</key>
+				<string>root</string>
+			</dict>
+			<dict>
+				<key>destination_path</key>
+				<string>/usr/local/munki</string>
+				<key>group</key>
+				<string>wheel</string>
+				<key>mode</key>
+				<string>go-w</string>
+				<key>source_item</key>
+				<string>postflight</string>
+				<key>user</key>
+				<string>root</string>
+			</dict>
+			<dict>
+				<key>destination_path</key>
+				<string>/usr/local/munki</string>
+				<key>group</key>
+				<string>wheel</string>
+				<key>mode</key>
+				<string>go-w</string>
+				<key>source_item</key>
+				<string>report_broken_client</string>
+				<key>user</key>
+				<string>root</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>MunkiScripts</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
 		<key>description</key>
 		<string>TeamViewer Quick Support Client</string>
 		<key>installer_item_hash</key>
@@ -4089,6 +4243,108 @@
 		<true/>
 		<key>version</key>
 		<string>3.1.0.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>installer_item_hash</key>
+		<string>4102747e33d6af3bfe19a1d4eaf9792d65bdf98952cefa9afcf1a008e5fda965</string>
+		<key>installer_item_location</key>
+		<string>apps/TextWrangler_3.5.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>12675</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.barebones.textwrangler</string>
+				<key>CFBundleName</key>
+				<string>TextWrangler</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.5.3</string>
+				<key>minosversion</key>
+				<string>10.5</string>
+				<key>path</key>
+				<string>/Applications/TextWrangler.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>TextWrangler.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>TextWrangler</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.5.3.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>installer_item_hash</key>
+		<string>37b6f403e303e80a802fe9cbfc422f51bca0e897a4635a48f778cb69da2ea72f</string>
+		<key>installer_item_location</key>
+		<string>apps/vlc-1.1.9.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43145</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.videolan.vlc</string>
+				<key>CFBundleName</key>
+				<string>VLC media player</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.1.9</string>
+				<key>path</key>
+				<string>/Applications/VLC.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>VLC.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>VLC media player</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.1.9</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -5891,6 +6147,688 @@
 		<string>14.0.2.0.0</string>
 	</dict>
 	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Office 2011 14.1.0 Update</string>
+		<key>installed_size</key>
+		<integer>635089</integer>
+		<key>installer_item_hash</key>
+		<string>9a6ab3fec1efac3bfa9a37ca1a35bb9b4deb79c8ee7a2ede34a4929358ff481d</string>
+		<key>installer_item_location</key>
+		<string>microsoft/Office 2011 14.1.0 Update.dmg</string>
+		<key>installer_item_size</key>
+		<integer>251103</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>14.1.0</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Office 2011/Office/MicrosoftComponentPlugin.framework/Resources/Info.plist</string>
+				<key>type</key>
+				<string>plist</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Office2011Update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_autoupdate_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1949</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.autoupdate.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_errorreporting_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>3374</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.errorreporting.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_quit_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.quit.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_readme_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>2</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.readme.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_core_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>16443</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.core_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_core_themes_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>10898</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.core_themes.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_ooxml_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>24277</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.ooxml.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_sounds_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.sounds.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_clipart_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>4889</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.clipart.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_clipart_search9_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.clipart_search9.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_equationeditor_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>851</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.equationeditor_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_graph_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>121</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.graph_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_silverlight_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.silverlight.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_flip4mac_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.flip4mac.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_langregister_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>24</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.langregister.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_sharepointbrowserplugin_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.sharepointbrowserplugin_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_word_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>7200</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_word_templates_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>2913</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_templates.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_word_wizards_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_wizards.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_excel_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>10845</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_excel_templates_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_templates.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_excel_webqueries_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_webqueries.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_query_en_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.query_en.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_solver_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>925</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.solver.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_powerpoint_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>4251</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.powerpoint_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_powerpoint_templates_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.powerpoint_templates.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_powerpoint_guidedmethods_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.powerpoint_guidedmethods.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_outlook_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>35510</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_outlook_scriptmenuitems_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>16</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_scriptmenuitems.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_vb_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.vb_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_catalan_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>380</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_catalan.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_danish_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>380</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_danish.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_dutch_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>380</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_dutch.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_english_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1823</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_english.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_finnish_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_finnish.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_french_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1363</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_french.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_german_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1868</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_german.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_italian_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>381</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_italian.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_japanese_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>281</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_japanese.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_norwegian_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>762</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_norwegian.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_portuguese_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>381</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_portuguese.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_brazilian_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>381</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_brazilian.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_spanish_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>381</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_spanish.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_swedish_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>381</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_swedish.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_czech_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>380</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_czech.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_polish_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>380</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_polish.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_russian_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>380</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_russian.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_proofing_turkish_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>380</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_turkish.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_dcc_resources_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1244</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.dcc_resources.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_fonts_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>220080</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.fonts.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_fonts_fontcollection_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.fonts_fontcollection.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_automator_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>2320</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.automator.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_en_automator_workflow_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>45</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.automator_workflow.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_equationeditor_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1920</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.equationeditor.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_graph_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>3599</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.graph.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_sharepointbrowserplugin_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>184</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.sharepointbrowserplugin.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_word_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>37082</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.word.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_excel_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>28029</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.excel.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_powerpoint_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>19396</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.powerpoint.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_outlook_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>28680</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.outlook.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_vb_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>5731</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.vb.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_dcc_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>641</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.dcc.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2011_all_core_14.1.0.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>150987</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.core.pkg.14.1.0.update</string>
+				<key>version</key>
+				<string>14.1.0.0.0</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2011-14.0.0.0.0</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>Office2011</string>
+		</array>
+		<key>version</key>
+		<string>14.1.0.0.0</string>
+	</dict>
+	<dict>
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
@@ -6960,7 +7898,7 @@
 		<key>description</key>
 		<string></string>
 		<key>display_name</key>
-		<string>PlugIn</string>
+		<string>Adobe Flash Player</string>
 		<key>installed_size</key>
 		<integer>5264</integer>
 		<key>installer_item_hash</key>
