@@ -62,6 +62,14 @@
 	</array>
 	<key>uninstallable</key>
 	<false/>
+	<key>update_for</key>
+	<array>
+		<string>AdobeMasterCollectionCS5</string>
+		<string>AdobeWebPremiumCS5</string>
+		<string>AdobeProductionPremiumCS5</string>
+		<string>AdobePhotoshopCS5</string>
+		<string>AdobeAfterEffectsCS5</string>
+	</array>
 	<key>version</key>
 	<string>6.2.0.0.0</string>
 </dict>

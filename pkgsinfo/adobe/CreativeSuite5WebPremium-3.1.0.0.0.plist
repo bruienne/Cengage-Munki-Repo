@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>adobe_install_info</key>
+	<dict>
+		<key>media_signature</key>
+		<string>{E0F5AC03-21BB-4EAE-B1BE-E5475DC4319B}</string>
+		<key>payload_count</key>
+		<integer>1</integer>
+		<key>uninstallxml</key>
+		<string>&lt;Deployment&gt;
+                &lt;Properties&gt;
+                    &lt;Property name="edtWorkflow"&gt;1&lt;/Property&gt;
+                    &lt;Property name="mediaSignature"&gt;{E0F5AC03-21BB-4EAE-B1BE-E5475DC4319B}&lt;/Property&gt;
+                    &lt;Property name="uninstall"&gt;1&lt;/Property&gt;
+                &lt;/Properties&gt;
+                &lt;Payloads&gt;
+                    &lt;!-- AdobeHelp --&gt;
+                    &lt;Payload adobeCode="{298CF0B0-8B47-46DF-B726-8E4BFAD5432E}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe AIR --&gt;
+                    &lt;Payload adobeCode="{2C8C0585-5083-4032-94B8-A9AD04ED0716}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Media Player --&gt;
+                    &lt;Payload adobeCode="{463D65D7-CD43-4FAC-A6C7-7D24CB5DB93B}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Contribute CS5 --&gt;
+                    &lt;Payload adobeCode="{606853EA-E138-47A4-B0B2-692C7788607E}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Illustrator CS5 --&gt;
+                    &lt;Payload adobeCode="{6A75E573-6909-4D48-BDFA-D8ED118605A5}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Fireworks CS5 --&gt;
+                    &lt;Payload adobeCode="{755A9707-8A74-4B18-A6FD-F80F5893BDF2}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Photoshop CS5 --&gt;
+                    &lt;Payload adobeCode="{7DFEBBA4-81E1-425B-BBAA-06E9E5BBD97E}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Flash Catalyst CS5 --&gt;
+                    &lt;Payload adobeCode="{A4EE8093-4250-4D8B-BDE4-A4675BB44953}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Flash Builder 4 --&gt;
+                    &lt;Payload adobeCode="{B198547F-579A-4CE1-AC61-558130922957}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Flash Pro CS5 --&gt;
+                    &lt;Payload adobeCode="{CFC9F871-7C40-40B6-BE4A-B98A5B309716}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Dreamweaver CS5 --&gt;
+                    &lt;Payload adobeCode="{DD5B1FAF-47FA-4B6D-A31C-5E313EB0DD07}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                &lt;/Payloads&gt;
+            &lt;/Deployment&gt;</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe CS5 Web Premium</string>
+	<key>installed_size</key>
+	<integer>139677</integer>
+	<key>installer_item_hash</key>
+	<string>bf16ee29a5ae041e133d4d1ace02579a0e10dbcea495d2b07c4751b9cbbc9b48</string>
+	<key>installer_item_location</key>
+	<string>adobe/Adobe CS5 Web Premium_Install.dmg</string>
+	<key>installer_item_size</key>
+	<integer>3757004</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5AAMEEPackage</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{E0F5AC03-21BB-4EAE-B1BE-E5475DC4319B}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>CreativeSuite5WebPremium</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{42CCA701-73BF-48D4-86DA-27AE807163EF}</string>
+			<key>display_name</key>
+			<string>Adobe Player for Embedding</string>
+			<key>installed_size</key>
+			<integer>139677</integer>
+			<key>version</key>
+			<string>3.1.0.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>AdobeCS5AAMEEPackage</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.1.0.0.0</string>
+</dict>
+</plist>

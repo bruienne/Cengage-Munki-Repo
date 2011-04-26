@@ -10,6 +10,7 @@
 			<string>cengage_munki_common_updates_plugins</string>
 			<string>cengage_munki_laptop_updates_apps</string>
 			<string>cengage_munki_laptop_updates_plugins</string>
+			<string>cengage_munki_common_updates_cs5</string>
 			<string>cengage_munki_deployment_office2011</string>
 		</array>
 

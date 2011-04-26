@@ -56,7 +56,11 @@
 	<false/>
 	<key>update_for</key>
 	<array>
-		<string>CreativeSuite5MasterCollection</string>
+		<string>AdobeMasterCollectionCS5</string>
+		<string>AdobeWebPremiumCS5</string>
+		<string>AdobeProductionPremiumCS5</string>
+		<string>AdobePhotoshopCS5</string>
+		<string>AdobeAfterEffectsCS5</string>
 	</array>
 	<key>version</key>
 	<string>3.1.0.0.0</string>

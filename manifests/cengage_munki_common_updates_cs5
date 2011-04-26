@@ -19,6 +19,7 @@
 		<key>managed_updates</key>
 		<array>
 			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AcrobatPro9Update</string>
 			<string>AdobeAfterEffectsCS5</string>
 			<string>AdobeDeviceCentralCS53.0.1</string>

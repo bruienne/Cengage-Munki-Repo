@@ -13,22 +13,22 @@
 	<key>description</key>
 	<string></string>
 	<key>display_name</key>
-	<string>Adobe Photoshop CS5 Support</string>
+	<string>Photoshop Camera Raw</string>
 	<key>installed_size</key>
-	<integer>399214</integer>
+	<integer>2392</integer>
 	<key>installer_item_hash</key>
-	<string>08dc735beeefd8b2e73a5eb123aeab0e4b39dcad3d5331f49c43f9a32744ff1f</string>
+	<string>73efb40ce823972858a67a6efd45a8703b24b198a27ed737e3fa644d89168575</string>
 	<key>installer_item_location</key>
-	<string>adobe/AdobePhotoshop12_2-mul-AdobeUpdate.dmg</string>
+	<string>adobe/Camera_Raw_6_3_updater.dmg</string>
 	<key>installer_item_size</key>
-	<integer>14973</integer>
+	<integer>77271</integer>
 	<key>installer_type</key>
 	<string>AdobeCS5PatchInstaller</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>path</key>
-			<string>/Library/Application Support/Adobe/Uninstall/{8B187308-57C1-49B9-8A6A-FAB3F0D10D0A}.db</string>
+			<string>/Library/Application Support/Adobe/Uninstall/{FD58D99B-9927-4226-8E00-959A4F76BD89}.db</string>
 			<key>type</key>
 			<string>file</string>
 		</dict>
@@ -36,28 +36,28 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>AdobePhotoshopCS5Support</string>
+	<string>PhotoshopCameraRaw</string>
 	<key>payloads</key>
 	<array>
 		<dict>
 			<key>AdobeCode</key>
-			<string>{648BBEB0-4E70-4D89-96CD-41C80A63686D}</string>
+			<string>{FD58D99B-9927-4226-8E00-959A4F76BD89}</string>
 			<key>display_name</key>
-			<string>Adobe Photoshop CS5</string>
-			<key>installed_size</key>
-			<integer>399214</integer>
-			<key>version</key>
-			<string>12.0.2.0.0</string>
-		</dict>
-		<dict>
-			<key>AdobeCode</key>
-			<string>{8B187308-57C1-49B9-8A6A-FAB3F0D10D0A}</string>
-			<key>display_name</key>
-			<string>Adobe Photoshop CS5 Support</string>
+			<string>Photoshop Camera Raw</string>
 			<key>installed_size</key>
 			<integer>0</integer>
 			<key>version</key>
-			<string>12.0.2.0.0</string>
+			<string>6.3.0.0.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A189C479-C7CD-4E08-8CCF-D999B68C0C71}</string>
+			<key>display_name</key>
+			<string>Camera Profiles Installer</string>
+			<key>installed_size</key>
+			<integer>2392</integer>
+			<key>version</key>
+			<string>6.3.0.0.0</string>
 		</dict>
 	</array>
 	<key>uninstallable</key>
@@ -71,6 +71,6 @@
 		<string>AdobeAfterEffectsCS5</string>
 	</array>
 	<key>version</key>
-	<string>12.0.2.0.0</string>
+	<string>6.3.0.0.0</string>
 </dict>
 </plist>

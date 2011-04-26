@@ -469,6 +469,57 @@
 		<string>9.4.3</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>display_name</key>
+		<string>Adobe Acrobat Pro Update</string>
+		<key>installer_item_hash</key>
+		<string>23b9eaec17026f6f0f89865a9665bc9a5906b61ce1e5a91aa5c64c548388b9e3</string>
+		<key>installer_item_location</key>
+		<string>adobe/AcroProUpd944_all.dmg</string>
+		<key>installer_item_size</key>
+		<integer>14428</integer>
+		<key>installer_type</key>
+		<string>AdobeAcrobatUpdater</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.Acrobat.Pro</string>
+				<key>CFBundleName</key>
+				<string>Acrobat</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.4.4</string>
+				<key>path</key>
+				<string>/Applications/Adobe Acrobat 9 Pro/Adobe Acrobat Pro.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>AcrobatPro9Update</string>
+		<key>requires</key>
+		<array>
+			<string>AcrobatPro9Update-9.4.1.0.0</string>
+		</array>
+		<key>uninstallable</key>
+		<false/>
+		<key>update_for</key>
+		<array>
+			<string>AcrobatPro9</string>
+		</array>
+		<key>version</key>
+		<string>9.4.4</string>
+	</dict>
+	<dict>
 		<key>AdobeSetupType</key>
 		<string>ProductInstall</string>
 		<key>autoremove</key>
@@ -928,7 +979,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>3.0.1.0.0</string>
@@ -1116,7 +1171,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>11.0.3.0.0</string>
@@ -1174,7 +1233,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>4.0.1.0.0</string>
@@ -1432,7 +1495,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>11.0.2.0.0</string>
@@ -1490,7 +1557,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>15.0.1.0.0</string>
@@ -1548,7 +1619,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>15.0.2.0.0</string>
@@ -1873,6 +1948,324 @@
 		<key>description</key>
 		<string></string>
 		<key>display_name</key>
+		<string>Adobe InDesign CS5</string>
+		<key>installed_size</key>
+		<integer>161370</integer>
+		<key>installer_item_hash</key>
+		<string>a0d024eb908411ff80944959f01399c74f994bcb6b72d38fc04ff740a8ae1387</string>
+		<key>installer_item_location</key>
+		<string>adobe/AdobeInDesign7_0_4Patch-All.dmg</string>
+		<key>installer_item_size</key>
+		<integer>38454</integer>
+		<key>installer_type</key>
+		<string>AdobeCS5PatchInstaller</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/Adobe/Uninstall/{50F00944-54F4-11E0-A154-19FB646A51FF}.db</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>AdobeInDesignCS5</string>
+		<key>payloads</key>
+		<array>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{800A369C-57B5-11DF-9E28-378C2C404F28}</string>
+				<key>display_name</key>
+				<string>Adobe Buzzword CS5</string>
+				<key>installed_size</key>
+				<integer>1634</integer>
+				<key>version</key>
+				<string>1.0.0.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{50F00944-54F4-11E0-A154-19FB646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5</string>
+				<key>installed_size</key>
+				<integer>142848</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{CD01AE7A-54F4-11E0-B795-6709656A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Base Files2</string>
+				<key>installed_size</key>
+				<integer>14874</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{02D1BB92-54F2-11E0-BE45-B124646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (cs_CZ)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{21D5CB1E-54F2-11E0-843D-07BC646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (da_DK)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{3B3603D0-54F2-11E0-A842-C7BE646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (de_DE)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{52B85224-54F2-11E0-BAB9-83C1646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (en_GB)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{6D6FBE54-54F2-11E0-912B-47C4646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (en_US)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{842BB832-54F2-11E0-9BD6-03C7646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (es_ES)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{9BAF58E2-54F2-11E0-8650-C3C9646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (es_MX)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{B37F2D3A-54F2-11E0-BEF0-7FCC646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (fi_FI)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{CB4A0D9A-54F2-11E0-BCFB-3CCF646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (fr_CA)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{E4498E06-54F2-11E0-881F-F9D1646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (fr_FR)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{FB399CD2-54F2-11E0-9586-B6D4646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (hu_HU)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{12F3E832-54F3-11E0-8614-76D7646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (it_IT)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{2B4421A4-54F3-11E0-8E19-32DA646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (ja_JP)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{450A098C-54F3-11E0-AEB2-EFDC646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (ko_KR)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{5DDFB0B0-54F3-11E0-83A3-ADDF646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (nb_NO)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{76F11E40-54F3-11E0-82B6-6DE2646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (nl_NL)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{921C8CD6-54F3-11E0-9175-2CE5646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (pl_PL)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{A9995830-54F3-11E0-9FF3-EBE7646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (pt_BR)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{C1604F8C-54F3-11E0-892B-A9EA646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (ru_RU)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{D95DE6E4-54F3-11E0-BAB8-69ED646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (sv_SE)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{F153D92A-54F3-11E0-8A5C-25F0646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (tr_TR)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{08B2AD4E-54F4-11E0-A53C-E1F2646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (uk_UA)</string>
+				<key>installed_size</key>
+				<integer>84</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{2119DDD0-54F4-11E0-B33B-9DF5646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (zh_CN)</string>
+				<key>installed_size</key>
+				<integer>83</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{38D69D1E-54F4-11E0-806E-59F8646A51FF}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS5 Application Language Files (zh_TW)</string>
+				<key>installed_size</key>
+				<integer>83</integer>
+				<key>version</key>
+				<string>7.0.4.553.0</string>
+			</dict>
+		</array>
+		<key>uninstallable</key>
+		<false/>
+		<key>update_for</key>
+		<array>
+			<string>CreativeSuite5MasterCollection</string>
+		</array>
+		<key>version</key>
+		<string>7.0.4.553.0</string>
+	</dict>
+	<dict>
+		<key>AdobeSetupType</key>
+		<string>ProductInstall</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
 		<string>Adobe Photoshop CS5 Support</string>
 		<key>installed_size</key>
 		<integer>313007</integer>
@@ -1924,7 +2317,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>12.0.1.1.0</string>
@@ -1992,7 +2389,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>12.0.2.0.0</string>
@@ -2052,7 +2453,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>3.1.0.0.0</string>
@@ -2149,7 +2554,7 @@
 			<string>CreativeSuite5MasterCollection</string>
 		</array>
 		<key>version</key>
-		<string>5.0.1</string>
+		<string>5.0.1.0.0</string>
 	</dict>
 	<dict>
 		<key>AdobeSetupType</key>
@@ -2335,7 +2740,7 @@
 			<string>CreativeSuite5MasterCollection</string>
 		</array>
 		<key>version</key>
-		<string>5.0.3</string>
+		<string>5.0.3.0.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2390,7 +2795,11 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>CreativeSuite5MasterCollection</string>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>3.1.0.0.0</string>
@@ -3669,6 +4078,123 @@
 	<dict>
 		<key>AdobeSetupType</key>
 		<string>ProductInstall</string>
+		<key>adobe_install_info</key>
+		<dict>
+			<key>media_signature</key>
+			<string>{E0F5AC03-21BB-4EAE-B1BE-E5475DC4319B}</string>
+			<key>payload_count</key>
+			<integer>1</integer>
+			<key>uninstallxml</key>
+			<string>&lt;Deployment&gt;
+                &lt;Properties&gt;
+                    &lt;Property name="edtWorkflow"&gt;1&lt;/Property&gt;
+                    &lt;Property name="mediaSignature"&gt;{E0F5AC03-21BB-4EAE-B1BE-E5475DC4319B}&lt;/Property&gt;
+                    &lt;Property name="uninstall"&gt;1&lt;/Property&gt;
+                &lt;/Properties&gt;
+                &lt;Payloads&gt;
+                    &lt;!-- AdobeHelp --&gt;
+                    &lt;Payload adobeCode="{298CF0B0-8B47-46DF-B726-8E4BFAD5432E}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe AIR --&gt;
+                    &lt;Payload adobeCode="{2C8C0585-5083-4032-94B8-A9AD04ED0716}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Media Player --&gt;
+                    &lt;Payload adobeCode="{463D65D7-CD43-4FAC-A6C7-7D24CB5DB93B}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Contribute CS5 --&gt;
+                    &lt;Payload adobeCode="{606853EA-E138-47A4-B0B2-692C7788607E}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Illustrator CS5 --&gt;
+                    &lt;Payload adobeCode="{6A75E573-6909-4D48-BDFA-D8ED118605A5}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Fireworks CS5 --&gt;
+                    &lt;Payload adobeCode="{755A9707-8A74-4B18-A6FD-F80F5893BDF2}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Photoshop CS5 --&gt;
+                    &lt;Payload adobeCode="{7DFEBBA4-81E1-425B-BBAA-06E9E5BBD97E}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Flash Catalyst CS5 --&gt;
+                    &lt;Payload adobeCode="{A4EE8093-4250-4D8B-BDE4-A4675BB44953}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Flash Builder 4 --&gt;
+                    &lt;Payload adobeCode="{B198547F-579A-4CE1-AC61-558130922957}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Flash Pro CS5 --&gt;
+                    &lt;Payload adobeCode="{CFC9F871-7C40-40B6-BE4A-B98A5B309716}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Dreamweaver CS5 --&gt;
+                    &lt;Payload adobeCode="{DD5B1FAF-47FA-4B6D-A31C-5E313EB0DD07}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                &lt;/Payloads&gt;
+            &lt;/Deployment&gt;</string>
+		</dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe CS5 Web Premium</string>
+		<key>installed_size</key>
+		<integer>139677</integer>
+		<key>installer_item_hash</key>
+		<string>bf16ee29a5ae041e133d4d1ace02579a0e10dbcea495d2b07c4751b9cbbc9b48</string>
+		<key>installer_item_location</key>
+		<string>adobe/Adobe CS5 Web Premium_Install.dmg</string>
+		<key>installer_item_size</key>
+		<integer>3757004</integer>
+		<key>installer_type</key>
+		<string>AdobeCS5AAMEEPackage</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/Adobe/Uninstall/{E0F5AC03-21BB-4EAE-B1BE-E5475DC4319B}.db</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>CreativeSuite5WebPremium</string>
+		<key>payloads</key>
+		<array>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{42CCA701-73BF-48D4-86DA-27AE807163EF}</string>
+				<key>display_name</key>
+				<string>Adobe Player for Embedding</string>
+				<key>installed_size</key>
+				<integer>139677</integer>
+				<key>version</key>
+				<string>3.1.0.0.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>AdobeCS5AAMEEPackage</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.1.0.0.0</string>
+	</dict>
+	<dict>
+		<key>AdobeSetupType</key>
+		<string>ProductInstall</string>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -3727,8 +4253,88 @@
 		</array>
 		<key>uninstallable</key>
 		<false/>
+		<key>update_for</key>
+		<array>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
+		</array>
 		<key>version</key>
 		<string>6.2.0.0.0</string>
+	</dict>
+	<dict>
+		<key>AdobeSetupType</key>
+		<string>ProductInstall</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Photoshop Camera Raw</string>
+		<key>installed_size</key>
+		<integer>2392</integer>
+		<key>installer_item_hash</key>
+		<string>73efb40ce823972858a67a6efd45a8703b24b198a27ed737e3fa644d89168575</string>
+		<key>installer_item_location</key>
+		<string>adobe/Camera_Raw_6_3_updater.dmg</string>
+		<key>installer_item_size</key>
+		<integer>77271</integer>
+		<key>installer_type</key>
+		<string>AdobeCS5PatchInstaller</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/Adobe/Uninstall/{FD58D99B-9927-4226-8E00-959A4F76BD89}.db</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>PhotoshopCameraRaw</string>
+		<key>payloads</key>
+		<array>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{FD58D99B-9927-4226-8E00-959A4F76BD89}</string>
+				<key>display_name</key>
+				<string>Photoshop Camera Raw</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>6.3.0.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{A189C479-C7CD-4E08-8CCF-D999B68C0C71}</string>
+				<key>display_name</key>
+				<string>Camera Profiles Installer</string>
+				<key>installed_size</key>
+				<integer>2392</integer>
+				<key>version</key>
+				<string>6.3.0.0.0</string>
+			</dict>
+		</array>
+		<key>uninstallable</key>
+		<false/>
+		<key>update_for</key>
+		<array>
+			<string>AdobeMasterCollectionCS5</string>
+			<string>AdobeWebPremiumCS5</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
+		</array>
+		<key>version</key>
+		<string>6.3.0.0.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4139,6 +4745,51 @@
 		<true/>
 		<key>version</key>
 		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Managed software installation tools.</string>
+		<key>display_name</key>
+		<string>munki tools</string>
+		<key>installed_size</key>
+		<integer>1208</integer>
+		<key>installer_item_hash</key>
+		<string>e8824134391b7b609b86bed46b0b99509c831c675a5326c893c51709055d8efe</string>
+		<key>installer_item_location</key>
+		<string>apps/munkitools-0.7.0.1047.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>537</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>munkitools</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>munkitools-0.7.0.1047.0.pkg</string>
+				<key>installed_size</key>
+				<integer>1208</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki</string>
+				<key>version</key>
+				<string>0.7.0.1047.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.7.0.1047.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -5381,6 +6032,528 @@
 		</array>
 		<key>version</key>
 		<string>13.0.8.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Office 2008 12.2.9 Update</string>
+		<key>installed_size</key>
+		<integer>317516</integer>
+		<key>installer_item_hash</key>
+		<string>97f0b743ffcde423d7ed127eec36a1601df28387cb40faf445adbf5669b13107</string>
+		<key>installer_item_location</key>
+		<string>microsoft/Office2008-1229UpdateEN.dmg</string>
+		<key>installer_item_size</key>
+		<integer>341143</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>12.2.9</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Office 2008/Office/MicrosoftComponentPlugin.framework/Resources/Info.plist</string>
+				<key>type</key>
+				<string>plist</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.9</string>
+		<key>name</key>
+		<string>Office 2008 Update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_autoupdate_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>2880</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.autoupdate.pkg</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_word_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>3464</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.word.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_word_help_std_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.word_help_std.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_word_help_hse_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.word_help_hse.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_word_help_wda_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.word_help_wda.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_excel_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1740</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.excel.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_excel_help_std_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.excel_help_std.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_excel_help_hse_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.excel_help_hse.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_excel_help_xla_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.excel_help_xla.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_powerpoint_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1016</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.powerpoint.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_powerpoint_help_std_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.powerpoint_help_std.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_powerpoint_help_hse_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.powerpoint_help_hse.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_powerpoint_help_ppa_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.powerpoint_help_ppa.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_entourage_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>7440</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.entourage.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_entourage_help_std_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>148</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.entourage_help_std.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_entourage_help_hse_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>160</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.entourage_help_hse.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_entourage_help_era_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>156</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.entourage_help_era.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_danish_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>24</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.danish.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_dutch_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>24</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.dutch.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_english_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>5076</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.english.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_finnish_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>24</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.finnish.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_french_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>2644</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.french.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_german_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>2924</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.german.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_italian_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>2300</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.italian.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_japanese_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>544</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.japanese.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_norwegian_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>40</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.norwegian.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_portuguese_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>36</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.portuguese.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_brazilian_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>24</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.brazilian.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_spanish_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1948</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.spanish.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_proofing_swedish_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>32</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.proofingtools.swedish.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_equationeditor_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>8</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.equationeditor.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_graph_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>6024</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.graph.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_ooxml_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>95308</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.ooxml.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_orgchart_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>2748</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.orgchart.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_helpviewer_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>1236</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.helpviewer.pkg</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_errorreporting_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>3752</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.errorreporting.pkg</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_automator_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>388</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.automator.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_automator_workflow_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>132</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.automator_workflow.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_quit_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>12</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.quit.pkg</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_slt_hse_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.slt_hse.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_slt_std_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.slt_std.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_dcc_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>9112</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.dcc.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_browserplugin_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>112</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.browserplugin.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_core_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>94452</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.core.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>12.2.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_entourage_ews_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>15904</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.entourage_ews.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>13.0.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_entourage_help_ews_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>3016</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.entourage_help_ews.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>13.0.9.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Office2008_en_entourage_core_ews_cmb_12.2.9.combo.pkg</string>
+				<key>installed_size</key>
+				<integer>52272</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.entourage_core_ews.pkg.cmb.12.2.9.combo</string>
+				<key>version</key>
+				<string>13.0.9.0.0</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2008-12.2.2.0.0</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>Office2008</string>
+		</array>
+		<key>version</key>
+		<string>13.0.9.0.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -7930,6 +9103,49 @@
 		<true/>
 		<key>version</key>
 		<string>10.2.153.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>PlugIn</string>
+		<key>installed_size</key>
+		<integer>5260</integer>
+		<key>installer_item_hash</key>
+		<string>ea616503d0a3cc27e321df61cdb1f2809176f2e0d021312777cbf39fe578c51c</string>
+		<key>installer_item_location</key>
+		<string>plugins/Adobe Flash Player-10.2.159.1.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>5307</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Adobe Flash Player</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Adobe Flash Player.pkg</string>
+				<key>installed_size</key>
+				<integer>5260</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>10.2.159.1.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.2.159.1.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
