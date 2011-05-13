@@ -10,6 +10,7 @@
 
 		<key>managed_installs</key>
 		<array>
+			<string>AdobeCS5DesignPremium</string>
 		</array>
 
 		<key>managed_uninstalls</key>
@@ -18,13 +19,6 @@
 
 		<key>managed_updates</key>
 		<array>
-			<string>TextWrangler</string>
-			<string>Cyberduck</string>
-			<string>Office2008</string>
-			<string>Office2011Update</string>
-			<string>Communicator13</string>
-			<string>Firefox</string>
-			<string>Skype</string>
 		</array>
 
 		<key>optional_installs</key>

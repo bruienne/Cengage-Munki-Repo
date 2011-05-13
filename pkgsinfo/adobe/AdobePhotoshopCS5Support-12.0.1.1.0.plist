@@ -64,8 +64,8 @@
 	<false/>
 	<key>update_for</key>
 	<array>
-		<string>AdobeMasterCollectionCS5</string>
-		<string>AdobeWebPremiumCS5</string>
+		<string>CreativeSuite5MasterCollection</string>
+		<string>CreativeSuite5WebPremium</string>
 		<string>AdobeProductionPremiumCS5</string>
 		<string>AdobePhotoshopCS5</string>
 		<string>AdobeAfterEffectsCS5</string>

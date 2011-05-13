@@ -32,6 +32,7 @@
 			<string>AdobePlayerforEmbedding</string>
 			<string>AdobePremiereProCS5Update</string>
 			<string>AdobeXMPPanelsCS5</string>
+			<string>AdobeCommunityHelpClientWrapper</string>
 		</array>
 
 		<key>optional_installs</key>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Microsoft Communicator for Mac</string>
+	<key>installed_size</key>
+	<integer>109777</integer>
+	<key>installer_item_hash</key>
+	<string>56357ea72b8839b3e3de529f23e0c455d0cfd9cbdf99283cec1f643bed22b068</string>
+	<key>installer_item_location</key>
+	<string>microsoft/16807Communicator Installer.dmg</string>
+	<key>installer_item_size</key>
+	<integer>28428</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Communicator13</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Communicator13_all_communicator.pkg</string>
+			<key>installed_size</key>
+			<integer>101695</integer>
+			<key>packageid</key>
+			<string>com.microsoft.oc.all.communicator.pkg.13.1.1</string>
+			<key>version</key>
+			<string>13.1.1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Communicator13_all_dock.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>com.microsoft.oc.all.dock.pkg.13.1.1</string>
+			<key>version</key>
+			<string>13.1.1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>mau_all_autoupdate.pkg</string>
+			<key>installed_size</key>
+			<integer>3334</integer>
+			<key>packageid</key>
+			<string>com.microsoft.mau.all.autoupdate.pkg.2.3.2</string>
+			<key>version</key>
+			<string>2.3.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>merp_all_errorreporting.pkg</string>
+			<key>installed_size</key>
+			<integer>4748</integer>
+			<key>packageid</key>
+			<string>com.microsoft.merp.all.errorreporting.pkg.2.2.6</string>
+			<key>version</key>
+			<string>2.2.6</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>13.1.1</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>plist</string>
+			<key>path</key>
+			<string>/Applications/Microsoft Communicator.app/Contents/Info.plist</string>
+			<key>CFBundleShortVersionString</key>
+			<string>13.1.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

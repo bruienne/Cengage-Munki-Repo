@@ -6,6 +6,12 @@
 
 		<key>included_manifests</key>
 		<array>
+			<string>cengage_munki_common_updates_apps</string>
+			<string>cengage_munki_common_updates_plugins</string>
+			<string>cengage_munki_laptop_updates_apps</string>
+			<string>cengage_munki_laptop_updates_plugins</string>
+			<string>cengage_munki_deployment_adobecs5mc</string>
+			<string>cengage_munki_deployment_office2011</string>
 		</array>
 
 		<key>managed_installs</key>
@@ -18,17 +24,9 @@
 
 		<key>managed_updates</key>
 		<array>
-			<string>TextWrangler</string>
-			<string>Cyberduck</string>
-			<string>Office2008</string>
-			<string>Office2011Update</string>
-			<string>Communicator13</string>
-			<string>Firefox</string>
-			<string>Skype</string>
 		</array>
 
 		<key>optional_installs</key>
 		<array>
 		</array>
-
 </dict>

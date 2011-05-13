@@ -10,6 +10,8 @@
 
 		<key>managed_installs</key>
 		<array>
+			<string>Adobe Flash Player</string>
+			<string>Silverlight</string>
 		</array>
 
 		<key>managed_uninstalls</key>

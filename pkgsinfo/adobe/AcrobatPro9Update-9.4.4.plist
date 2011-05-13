@@ -45,6 +45,11 @@
 	</array>
 	<key>uninstallable</key>
 	<false/>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+sed -i .bak 's/\&lt;string\&gt;AcroEFGPro90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
+sed -i .bak 's/\&lt;string\&gt;AcroEFGDist90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
+	</string>
 	<key>update_for</key>
 	<array>
 		<string>AcrobatPro9</string>

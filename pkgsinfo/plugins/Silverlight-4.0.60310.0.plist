@@ -11,43 +11,37 @@
 	<key>description</key>
 	<string></string>
 	<key>display_name</key>
-	<string>Adobe Flash Player PlugIn</string>
+	<string>Microsoft® Silverlight™ Browser Plug-In</string>
 	<key>installed_size</key>
-	<integer>5260</integer>
+	<integer>33488</integer>
 	<key>installer_item_hash</key>
-	<string>ea616503d0a3cc27e321df61cdb1f2809176f2e0d021312777cbf39fe578c51c</string>
+	<string>38e62464e78e7de13ebe390fabf761ab834d4203b842c86956a657e4fc510904</string>
 	<key>installer_item_location</key>
-	<string>plugins/Adobe Flash Player-10.2.159.1.0.dmg</string>
+	<string>plugins/Silverlight.dmg</string>
 	<key>installer_item_size</key>
-	<integer>5307</integer>
+	<integer>13174</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>Adobe Flash Player</string>
+	<string>Silverlight</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>Adobe Flash Player.pkg</string>
+			<string>Silverlight.pkg</string>
 			<key>installed_size</key>
-			<integer>5260</integer>
+			<integer>33488</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.FlashPlayer</string>
+			<string>com.microsoft.installSilverlightPlugin</string>
 			<key>version</key>
-			<string>10.2.159.1.0</string>
+			<string>4.0.60310.0</string>
 		</dict>
-	</array>
-	<key>blocking_applications</key>
-	<array>
-	        <string>Firefox</string>
-	        <string>Safari</string>
-	        <string>Opera</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>10.2.159.1.0</string>
+	<string>4.0.60310.0</string>
 </dict>
 </plist>

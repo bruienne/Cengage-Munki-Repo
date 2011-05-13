@@ -9,45 +9,37 @@
 		<string>testing</string>
 	</array>
 	<key>description</key>
-	<string></string>
+	<string>Installs updated Adobe AIR and Adobe Community Help Client</string>
 	<key>display_name</key>
-	<string>Adobe Flash Player PlugIn</string>
-	<key>installed_size</key>
-	<integer>5260</integer>
+	<string>Adobe Community Help Client</string>
 	<key>installer_item_hash</key>
-	<string>ea616503d0a3cc27e321df61cdb1f2809176f2e0d021312777cbf39fe578c51c</string>
+	<string>3e735f1a8d7fcd43354fa49691ba11c1fd1744fca9fe3ae91aeaba46b85526a3</string>
 	<key>installer_item_location</key>
-	<string>plugins/Adobe Flash Player-10.2.159.1.0.dmg</string>
+	<string>adobe/AdobeCommunityHelpClientWrapper-3.5.0.23.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>5307</integer>
+	<integer>25916</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>Adobe Flash Player</string>
+	<string>AdobeCommunityHelpClientWrapper</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>Adobe Flash Player.pkg</string>
+			<string>AdobeCommunityHelpClientWrapper.pkg</string>
 			<key>installed_size</key>
-			<integer>5260</integer>
+			<integer>0</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.FlashPlayer</string>
+			<string>com.googlecode.munki.pkg.adobehelpinstaller</string>
 			<key>version</key>
-			<string>10.2.159.1.0</string>
+			<string>3.5.0.23.0</string>
 		</dict>
-	</array>
-	<key>blocking_applications</key>
-	<array>
-	        <string>Firefox</string>
-	        <string>Safari</string>
-	        <string>Opera</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>10.2.159.1.0</string>
+	<string>3.5.0.23.0</string>
 </dict>
 </plist>

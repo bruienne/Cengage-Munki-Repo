@@ -506,6 +506,11 @@
 		<string>10.4.0</string>
 		<key>name</key>
 		<string>AcrobatPro9Update</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/bash
+sed -i .bak 's/\&lt;string\&gt;AcroEFGPro90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
+sed -i .bak 's/\&lt;string\&gt;AcroEFGDist90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
+	</string>
 		<key>requires</key>
 		<array>
 			<string>AcrobatPro9Update-9.4.1.0.0</string>
@@ -708,6 +713,10 @@
 		</array>
 		<key>uninstallable</key>
 		<false/>
+		<key>update_for</key>
+		<array>
+			<string>CreativeSuite5MasterCollection</string>
+		</array>
 		<key>version</key>
 		<string>10.0.2.0.0</string>
 	</dict>
@@ -755,6 +764,47 @@
 		</array>
 		<key>version</key>
 		<string>3.3.0.800.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Installs updated Adobe AIR and Adobe Community Help Client</string>
+		<key>display_name</key>
+		<string>Adobe Community Help Client</string>
+		<key>installer_item_hash</key>
+		<string>3e735f1a8d7fcd43354fa49691ba11c1fd1744fca9fe3ae91aeaba46b85526a3</string>
+		<key>installer_item_location</key>
+		<string>adobe/AdobeCommunityHelpClientWrapper-3.5.0.23.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>25916</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>AdobeCommunityHelpClientWrapper</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>AdobeCommunityHelpClientWrapper.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.pkg.adobehelpinstaller</string>
+				<key>version</key>
+				<string>3.5.0.23.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.5.0.23.0</string>
 	</dict>
 	<dict>
 		<key>AdobeSetupType</key>
@@ -979,8 +1029,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -1171,8 +1221,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -1233,8 +1283,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -1495,8 +1545,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -1557,8 +1607,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -1619,8 +1669,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -2317,8 +2367,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -2389,8 +2439,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -2453,8 +2503,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -2795,14 +2845,127 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>3.1.0.0.0</string>
+	</dict>
+	<dict>
+		<key>AdobeSetupType</key>
+		<string>ProductInstall</string>
+		<key>adobe_install_info</key>
+		<dict>
+			<key>media_signature</key>
+			<string>{CDC977A9-B3BA-4320-BD28-96F2CC91B9E9}</string>
+			<key>payload_count</key>
+			<integer>1</integer>
+			<key>uninstallxml</key>
+			<string>&lt;Deployment&gt;
+                &lt;Properties&gt;
+                    &lt;Property name="edtWorkflow"&gt;1&lt;/Property&gt;
+                    &lt;Property name="mediaSignature"&gt;{CDC977A9-B3BA-4320-BD28-96F2CC91B9E9}&lt;/Property&gt;
+                    &lt;Property name="uninstall"&gt;1&lt;/Property&gt;
+                &lt;/Properties&gt;
+                &lt;Payloads&gt;
+                    &lt;!-- AdobeHelp --&gt;
+                    &lt;Payload adobeCode="{298CF0B0-8B47-46DF-B726-8E4BFAD5432E}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe AIR --&gt;
+                    &lt;Payload adobeCode="{2C8C0585-5083-4032-94B8-A9AD04ED0716}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Media Player --&gt;
+                    &lt;Payload adobeCode="{463D65D7-CD43-4FAC-A6C7-7D24CB5DB93B}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Illustrator CS5 --&gt;
+                    &lt;Payload adobeCode="{6A75E573-6909-4D48-BDFA-D8ED118605A5}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Fireworks CS5 --&gt;
+                    &lt;Payload adobeCode="{755A9707-8A74-4B18-A6FD-F80F5893BDF2}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Photoshop CS5 --&gt;
+                    &lt;Payload adobeCode="{7DFEBBA4-81E1-425B-BBAA-06E9E5BBD97E}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe InDesign CS5 --&gt;
+                    &lt;Payload adobeCode="{9EEF9016-4356-11DF-9781-28A32C404F28}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Flash Catalyst CS5 --&gt;
+                    &lt;Payload adobeCode="{A4EE8093-4250-4D8B-BDE4-A4675BB44953}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Flash Pro CS5 --&gt;
+                    &lt;Payload adobeCode="{CFC9F871-7C40-40B6-BE4A-B98A5B309716}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Dreamweaver CS5 --&gt;
+                    &lt;Payload adobeCode="{DD5B1FAF-47FA-4B6D-A31C-5E313EB0DD07}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                &lt;/Payloads&gt;
+            &lt;/Deployment&gt;</string>
+		</dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe CS5 Design Premium</string>
+		<key>installed_size</key>
+		<integer>139677</integer>
+		<key>installer_item_hash</key>
+		<string>3a5bb986080ece66c82c199de967cd0620f960748e375a3aeb528eb605721b00</string>
+		<key>installer_item_location</key>
+		<string>adobe/Adobe CS5 Design Premium_Install.dmg</string>
+		<key>installer_item_size</key>
+		<integer>3362090</integer>
+		<key>installer_type</key>
+		<string>AdobeCS5AAMEEPackage</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/Adobe/Uninstall/{CDC977A9-B3BA-4320-BD28-96F2CC91B9E9}.db</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>CreativeSuite5DesignPremium</string>
+		<key>payloads</key>
+		<array>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{42CCA701-73BF-48D4-86DA-27AE807163EF}</string>
+				<key>display_name</key>
+				<string>Adobe Player for Embedding</string>
+				<key>installed_size</key>
+				<integer>139677</integer>
+				<key>version</key>
+				<string>3.1</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>AdobeCS5AAMEEPackage</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.1</string>
 	</dict>
 	<dict>
 		<key>AdobeSetupType</key>
@@ -4255,8 +4418,8 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -4327,14 +4490,86 @@
 		<false/>
 		<key>update_for</key>
 		<array>
-			<string>AdobeMasterCollectionCS5</string>
-			<string>AdobeWebPremiumCS5</string>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
 			<string>AdobeProductionPremiumCS5</string>
 			<string>AdobePhotoshopCS5</string>
 			<string>AdobeAfterEffectsCS5</string>
 		</array>
 		<key>version</key>
 		<string>6.3.0.0.0</string>
+	</dict>
+	<dict>
+		<key>AdobeSetupType</key>
+		<string>ProductInstall</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Photoshop Camera Raw</string>
+		<key>installed_size</key>
+		<integer>2392</integer>
+		<key>installer_item_hash</key>
+		<string>4a8dce3ad7e29c152d6e40e0206b9cde242f28455db6e7cae360dad7623ec718</string>
+		<key>installer_item_location</key>
+		<string>adobe/Camera_Raw_6_4_updater.dmg</string>
+		<key>installer_item_size</key>
+		<integer>80619</integer>
+		<key>installer_type</key>
+		<string>AdobeCS5PatchInstaller</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/Adobe/Uninstall/{F6FAFFC8-287A-4548-90BF-8EE5D2D4826F}.db</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>PhotoshopCameraRaw</string>
+		<key>payloads</key>
+		<array>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{F6FAFFC8-287A-4548-90BF-8EE5D2D4826F}</string>
+				<key>display_name</key>
+				<string>Photoshop Camera Raw</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>6.4.0.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{24E4F3C7-3AA8-4257-89DF-82AD2E37846C}</string>
+				<key>display_name</key>
+				<string>Camera Profiles Installer</string>
+				<key>installed_size</key>
+				<integer>2392</integer>
+				<key>version</key>
+				<string>6.4.0.0.0</string>
+			</dict>
+		</array>
+		<key>uninstallable</key>
+		<false/>
+		<key>update_for</key>
+		<array>
+			<string>CreativeSuite5MasterCollection</string>
+			<string>CreativeSuite5WebPremium</string>
+			<string>AdobeProductionPremiumCS5</string>
+			<string>AdobePhotoshopCS5</string>
+			<string>AdobeAfterEffectsCS5</string>
+		</array>
+		<key>version</key>
+		<string>6.4.0.0.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4659,6 +4894,60 @@
 		<array>
 			<string>testing</string>
 		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Firefox</string>
+		<key>installer_item_hash</key>
+		<string>13b2c1baddacfaac214c1f67aeb88261271b61a79e13e0e6113e2509a9d1f419</string>
+		<key>installer_item_location</key>
+		<string>apps/Firefox 3.6.17.dmg</string>
+		<key>installer_item_size</key>
+		<integer>19195</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.6.17</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.6.17</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
 		<key>forced_install</key>
 		<true/>
 		<key>installer_item_hash</key>
@@ -4790,6 +5079,208 @@
 		<true/>
 		<key>version</key>
 		<string>0.7.0.1047.0</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Munki - Managed software installation for OS X</string>
+		<key>installed_size</key>
+		<integer>1244</integer>
+		<key>installer_item_hash</key>
+		<string>4107f41c7acdf3a8f7868ae6711e79d9a96315d7fc7fe0dffb7715c8a2df143e</string>
+		<key>installer_item_location</key>
+		<string>apps/munkitools-0.7.1.1156.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>555</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>munkitools</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_core-0.7.1.1156.0.pkg</string>
+				<key>installed_size</key>
+				<integer>448</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>0.7.1.1156.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_admin-0.7.1.1156.0.pkg</string>
+				<key>installed_size</key>
+				<integer>60</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.admin</string>
+				<key>version</key>
+				<string>0.7.1.1156.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_app-3.0.16.1156.pkg</string>
+				<key>installed_size</key>
+				<integer>712</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.app</string>
+				<key>version</key>
+				<string>3.0.16.1156.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_launchd-0.7.1.pkg</string>
+				<key>installed_size</key>
+				<integer>24</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.launchd</string>
+				<key>version</key>
+				<string>0.7.1.0.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.7.1.1156.0</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Munki - Managed software installation for OS X</string>
+		<key>installed_size</key>
+		<integer>1248</integer>
+		<key>installer_item_hash</key>
+		<string>06e3199b75061019525b9ef77ea8047efeb719dbbf0050479604d66e93b78d8c</string>
+		<key>installer_item_location</key>
+		<string>apps/munkitools-0.7.1.1173.0.mpkg.dmg</string>
+		<key>installer_item_size</key>
+		<integer>555</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>munkitools</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_core-0.7.1.1173.0.pkg</string>
+				<key>installed_size</key>
+				<integer>448</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>0.7.1.1173.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_admin-0.7.1.1173.0.pkg</string>
+				<key>installed_size</key>
+				<integer>64</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.admin</string>
+				<key>version</key>
+				<string>0.7.1.1173.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_app-3.0.16.1173.pkg</string>
+				<key>installed_size</key>
+				<integer>712</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.app</string>
+				<key>version</key>
+				<string>3.0.16.1173</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_launchd-0.7.1.pkg</string>
+				<key>installed_size</key>
+				<integer>24</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.launchd</string>
+				<key>version</key>
+				<string>0.7.1</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.7.1.1173.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>forced_install</key>
+		<true/>
+		<key>installer_item_hash</key>
+		<string>33a6c4bdf7f73e5d90b5b23094671b533dc76287192eea7b68929fab92c6316d</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype_5.1.59.947.dmg</string>
+		<key>installer_item_size</key>
+		<integer>20701</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.1.59.947</string>
+				<key>minosversion</key>
+				<string>10.5.8</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.1.59.947</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4996,6 +5487,90 @@
 		<true/>
 		<key>version</key>
 		<string>1.1.9</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Microsoft Communicator for Mac</string>
+		<key>installed_size</key>
+		<integer>109777</integer>
+		<key>installer_item_hash</key>
+		<string>56357ea72b8839b3e3de529f23e0c455d0cfd9cbdf99283cec1f643bed22b068</string>
+		<key>installer_item_location</key>
+		<string>microsoft/16807Communicator Installer.dmg</string>
+		<key>installer_item_size</key>
+		<integer>28428</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>13.1.1</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Communicator.app/Contents/Info.plist</string>
+				<key>type</key>
+				<string>plist</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Communicator13</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Communicator13_all_communicator.pkg</string>
+				<key>installed_size</key>
+				<integer>101695</integer>
+				<key>packageid</key>
+				<string>com.microsoft.oc.all.communicator.pkg.13.1.1</string>
+				<key>version</key>
+				<string>13.1.1</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Communicator13_all_dock.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.oc.all.dock.pkg.13.1.1</string>
+				<key>version</key>
+				<string>13.1.1</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>mau_all_autoupdate.pkg</string>
+				<key>installed_size</key>
+				<integer>3334</integer>
+				<key>packageid</key>
+				<string>com.microsoft.mau.all.autoupdate.pkg.2.3.2</string>
+				<key>version</key>
+				<string>2.3.2</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>merp_all_errorreporting.pkg</string>
+				<key>installed_size</key>
+				<integer>4748</integer>
+				<key>packageid</key>
+				<string>com.microsoft.merp.all.errorreporting.pkg.2.2.6</string>
+				<key>version</key>
+				<string>2.2.6</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>13.1.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -9107,6 +9682,12 @@
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Firefox</string>
+			<string>Safari</string>
+			<string>Opera</string>
+		</array>
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
@@ -9114,7 +9695,7 @@
 		<key>description</key>
 		<string></string>
 		<key>display_name</key>
-		<string>PlugIn</string>
+		<string>Adobe Flash Player PlugIn</string>
 		<key>installed_size</key>
 		<integer>5260</integer>
 		<key>installer_item_hash</key>
@@ -9146,6 +9727,55 @@
 		<true/>
 		<key>version</key>
 		<string>10.2.159.1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Firefox</string>
+			<string>Safari</string>
+			<string>Opera</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>PlugIn</string>
+		<key>installed_size</key>
+		<integer>6164</integer>
+		<key>installer_item_hash</key>
+		<string>c2402fe0f11f4307e194485824f3c6075684bbfbc4d56b5a0cd4cbb6f210834a</string>
+		<key>installer_item_location</key>
+		<string>plugins/Adobe Flash Player-10.3.181.14.dmg</string>
+		<key>installer_item_size</key>
+		<integer>5653</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Adobe Flash Player</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Adobe Flash Player.pkg</string>
+				<key>installed_size</key>
+				<integer>6164</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>10.3.181.14</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.3.181.14</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -9310,6 +9940,49 @@
 		<true/>
 		<key>version</key>
 		<string>4.0.50917.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Microsoft® Silverlight™ Browser Plug-In</string>
+		<key>installed_size</key>
+		<integer>33488</integer>
+		<key>installer_item_hash</key>
+		<string>38e62464e78e7de13ebe390fabf761ab834d4203b842c86956a657e4fc510904</string>
+		<key>installer_item_location</key>
+		<string>plugins/Silverlight.dmg</string>
+		<key>installer_item_size</key>
+		<integer>13174</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Silverlight</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Silverlight.pkg</string>
+				<key>installed_size</key>
+				<integer>33488</integer>
+				<key>packageid</key>
+				<string>com.microsoft.installSilverlightPlugin</string>
+				<key>version</key>
+				<string>4.0.60310.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.0.60310.0</string>
 	</dict>
 </array>
 </plist>

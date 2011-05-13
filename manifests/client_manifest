@@ -10,6 +10,7 @@
 		<array>
 			<string>Office2011</string>
 			<string>MunkiScripts</string>
+			<string>AcrobatPro9</string>
 		</array>
 	<key>managed_updates</key>
 		<array>
@@ -17,10 +18,11 @@
 			<string>Firefox</string>
 			<string>Silverlight</string>
 			<string>Flip4Mac WMV</string>
+			<string>Adobe Flash Player</string>
 			<string>TextWrangler</string>
 			<string>Office 2008 Update</string>
 			<string>Office2011Update</string>
-			<string>AcrobatPro9</string>
+			<string>Communicator13</string>
 			<string>CreativeSuite5MasterCollection</string>
 			<string>AcrobatPro9Update</string>
 			<string>AdobeAfterEffectsCS5</string>
@@ -36,5 +38,6 @@
 			<string>AdobeXMPPanelsCS5</string>
 			<string>VLC media player</string>
 			<string>munkitools</string>
+			<string>Skype</string>
 		</array>
 </dict>
