@@ -9,43 +9,32 @@
 		<string>testing</string>
 	</array>
 	<key>description</key>
-	<string>Required to connect to the Cengage Learning VPN.</string>
+	<string>Configures autoupdate settings for Flash Player 10 for enterprise deployments.</string>
 	<key>display_name</key>
-	<string>F5 Firepass SSL VPN</string>
+	<string>Flash Player Update Configuration</string>
 	<key>installed_size</key>
-	<integer>612</integer>
+	<integer>4</integer>
 	<key>installer_item_hash</key>
-	<string>73fb9e10ed41ed21c0615451f329f02c7e02b362550b278cfe038376aee912fc</string>
+	<string>b202328cd9419492a80a2e9af4ba35b9dbfc506e55049999a01a7efd3ec9ffb5</string>
 	<key>installer_item_location</key>
-	<string>plugins/mac_SSLVpn.dmg</string>
+	<string>adobe/DisableFlash10AutoUpdate-1.0.pkg.dmg</string>
 	<key>installer_item_size</key>
-	<integer>210</integer>
+	<integer>16</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>mac_SSLVpn</string>
-	<key>installs</key>
-	<array>
-		<dict>
-			<key>CFBundleShortVersionString</key>
-			<string>6031.2010.0629.1</string>
-			<key>path</key>
-			<string>/Library/Internet Plug-Ins/F5 SSL VPN Plugin.plugin/Contents/Info.plist</string>
-			<key>type</key>
-			<string>plist</string>
-		</dict>
-	</array>
+	<string>DisableFlash10AutoUpdate</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>mac_SSLVpn.pkg</string>
+			<string>DisableFlash10AutoUpdate-1.0.pkg</string>
 			<key>installed_size</key>
-			<integer>612</integer>
+			<integer>4</integer>
 			<key>packageid</key>
-			<string>com.f5.NetworkAccess.pkg</string>
+			<string>com.googlecode.munki.disableflash10autoupdate</string>
 			<key>version</key>
-			<string>2008.10</string>
+			<string>1.0</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -53,6 +42,12 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>6031.2010.0629.1</string>
+	<string>1.0</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>Adobe Flash Player-10.3.181.14</string>
+	</array>
 </dict>
 </plist>

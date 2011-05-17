@@ -1,0 +1,7 @@
+This repository contains the non-private parts of the Cengage Learning Munki manifests, catalogs and pkgsinfo files as used to distribute updates to the user base in Farmington Hills, MI.
+
+All files contained within are currently used in a testing-only capacity and under a lot of change. That said, implementation has been smooth and we have experienced few problems while managing our group of pilot Macs.
+
+For questions please contact Pepijn Bruienne at pepijn.bruienne@cengage.com
+
+Thank you.

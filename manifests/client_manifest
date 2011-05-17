@@ -6,11 +6,16 @@
 	<key>included_manifests</key>
 		<array>
 		</array>
-		<key>managed_installs</key>
+	<key>managed_uninstalls</key>
+		<array>
+		<string>MacProductKeyFinder</string>
+		</array>
+	<key>managed_installs</key>
 		<array>
 			<string>Office2011</string>
 			<string>MunkiScripts</string>
 			<string>AcrobatPro9</string>
+			<string>DisableFlash10AutoUpdate</string>
 		</array>
 	<key>managed_updates</key>
 		<array>
@@ -39,5 +44,7 @@
 			<string>VLC media player</string>
 			<string>munkitools</string>
 			<string>Skype</string>
+			<string>DisableFlash10AutoUpdate</string>
+			<string>mac_SSLVpn</string>
 		</array>
 </dict>

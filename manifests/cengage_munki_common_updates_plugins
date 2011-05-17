@@ -12,6 +12,7 @@
 		<array>
 			<string>Adobe Flash Player</string>
 			<string>Silverlight</string>
+			<string>DisableFlash10AutoUpdate</string>
 		</array>
 
 		<key>managed_uninstalls</key>
@@ -23,6 +24,7 @@
 			<string>Silverlight</string>
 			<string>Flip4Mac WMV</string>
 			<string>Adobe Flash Player</string>
+			<string>DisableFlash10AutoUpdate</string>
 		</array>
 
 		<key>optional_installs</key>

@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>unattended_install</key>
+	<true/>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
@@ -15,11 +17,11 @@
 	<key>installed_size</key>
 	<integer>612</integer>
 	<key>installer_item_hash</key>
-	<string>73fb9e10ed41ed21c0615451f329f02c7e02b362550b278cfe038376aee912fc</string>
+	<string>58686bb10afd156af0aedc5ee327f7e10f19c6850ef66b58c130004db13a4c04</string>
 	<key>installer_item_location</key>
-	<string>plugins/mac_SSLVpn.dmg</string>
+	<string>plugins/mac_SSLVpn 3.dmg</string>
 	<key>installer_item_size</key>
-	<integer>210</integer>
+	<integer>207</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
@@ -28,7 +30,7 @@
 	<array>
 		<dict>
 			<key>CFBundleShortVersionString</key>
-			<string>6031.2010.0629.1</string>
+			<string>6031.2011.0323.1</string>
 			<key>path</key>
 			<string>/Library/Internet Plug-Ins/F5 SSL VPN Plugin.plugin/Contents/Info.plist</string>
 			<key>type</key>
@@ -39,7 +41,7 @@
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>mac_SSLVpn.pkg</string>
+			<string>mac_SSLVpn 3.pkg</string>
 			<key>installed_size</key>
 			<integer>612</integer>
 			<key>packageid</key>
@@ -53,6 +55,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>6031.2010.0629.1</string>
+	<string>6031.2011.0323.1</string>
 </dict>
 </plist>

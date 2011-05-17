@@ -17,7 +17,7 @@
 	<key>description</key>
 	<string></string>
 	<key>display_name</key>
-	<string>PlugIn</string>
+	<string>Adobe Flash PlugIn</string>
 	<key>installed_size</key>
 	<integer>6164</integer>
 	<key>installer_item_hash</key>
@@ -42,12 +42,6 @@
 			<key>version</key>
 			<string>10.3.181.14</string>
 		</dict>
-	</array>
-	<key>blocking_applications</key>
-	<array>
-	        <string>Firefox</string>
-	        <string>Safari</string>
-	        <string>Opera</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>

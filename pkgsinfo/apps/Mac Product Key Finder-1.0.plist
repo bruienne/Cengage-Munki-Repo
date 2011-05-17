@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Removes installed versions of Mac Product Key Finder</string>
+	<key>installer_item_hash</key>
+	<string>e43fb5d51cba2f31925d076b114f0077515036ab9bca94e7082f947dc44162fb</string>
+	<key>installer_item_location</key>
+	<string>apps/MacProductKeyFinder.app.dmg</string>
+	<key>installer_item_size</key>
+	<integer>509</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.nuclearcoffee.recoverkeys</string>
+			<key>CFBundleName</key>
+			<string>Mac Product Key Finder</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0</string>
+			<key>minosversion</key>
+			<string>10.5</string>
+			<key>path</key>
+			<string>/Applications/Mac Product Key Finder.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Mac Product Key Finder.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>MacProductKeyFinder</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

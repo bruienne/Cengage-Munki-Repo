@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Xerox Phaser 8550 Driver Mac OS X 10.6</string>
+	<key>installed_size</key>
+	<integer>26640</integer>
+	<key>installer_item_hash</key>
+	<string>1016c37f9f02265c010474f882d6b9319c0aaef1c0fba9b1b9ad31266dd286fd</string>
+	<key>installer_item_location</key>
+	<string>drivers/Phaser8550_EN.dmg</string>
+	<key>installer_item_size</key>
+	<integer>13527</integer>
+	<key>minimum_os_version</key>
+	<string>10.6.0</string>
+	<key>name</key>
+	<string>Phaser8550_EN</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>xeroxPrintingSoftwareStingray.pkg</string>
+			<key>installed_size</key>
+			<integer>3984</integer>
+			<key>packageid</key>
+			<string>com.xerox.print.xeroxPhaser8550.xeroxPrintingSoftwareStingray.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>xeroxPrintingscoutStingray.pkg</string>
+			<key>installed_size</key>
+			<integer>2152</integer>
+			<key>packageid</key>
+			<string>com.xerox.print.xeroxPhaser8550.xeroxPrintingscoutStingray.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>xeroxSupportCentreStingray.pkg</string>
+			<key>installed_size</key>
+			<integer>18060</integer>
+			<key>packageid</key>
+			<string>com.xerox.print.xeroxPhaser8550.xeroxSupportCentreStingray.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>iccprofileStingray.pkg</string>
+			<key>installed_size</key>
+			<integer>252</integer>
+			<key>packageid</key>
+			<string>com.xerox.print.xeroxPhaser8550.iccprofileStingray.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1</string>
+</dict>
+</plist>
