@@ -2,9 +2,11 @@
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>printers</string>
 		</array>
 	<key>included_manifests</key>
 		<array>
+			<string>cengage_munki_optional_printers</string>
 		</array>
 	<key>managed_uninstalls</key>
 		<array>
@@ -42,9 +44,12 @@
 			<string>AdobePremiereProCS5Update</string>
 			<string>AdobeXMPPanelsCS5</string>
 			<string>VLC media player</string>
-			<string>munkitools</string>
 			<string>Skype</string>
 			<string>DisableFlash10AutoUpdate</string>
 			<string>mac_SSLVpn</string>
+		</array>
+	<key>optional_installs</key>
+		<array>
+			<string>munkitools</string>
 		</array>
 </dict>

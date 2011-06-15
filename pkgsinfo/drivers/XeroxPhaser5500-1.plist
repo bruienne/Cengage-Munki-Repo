@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Xerox Phaser 5500 Drivers</string>
+	<key>installed_size</key>
+	<integer>4620</integer>
+	<key>installer_item_hash</key>
+	<string>a630ed2f4dbae3615b1457cea28e4420591170938abf4e65e104fcf7b5652b62</string>
+	<key>installer_item_location</key>
+	<string>drivers/Xerox_Phaser_5500_CD.dmg</string>
+	<key>installer_item_size</key>
+	<integer>9839</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>XeroxPhaser5500</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>xps104xphaser5500.pkg</string>
+			<key>installed_size</key>
+			<integer>540</integer>
+			<key>packageid</key>
+			<string>com.xerox.print.xeroxPrinter.xps104xphaser5500.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>pdexphaser5500.pkg</string>
+			<key>installed_size</key>
+			<integer>3960</integer>
+			<key>packageid</key>
+			<string>com.xerox.print.xeroxPrinter.pdexphaser5500.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>xpdxphaser5500.pkg</string>
+			<key>installed_size</key>
+			<integer>120</integer>
+			<key>packageid</key>
+			<string>com.xerox.print.xeroxPrinter.xpdxphaser5500.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1</string>
+</dict>
+</plist>

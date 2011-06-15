@@ -10,6 +10,7 @@
 
 		<key>managed_installs</key>
 		<array>
+			<string>mac_SSLVpn</string>
 		</array>
 
 		<key>managed_uninstalls</key>

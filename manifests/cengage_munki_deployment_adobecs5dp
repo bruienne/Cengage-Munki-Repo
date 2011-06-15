@@ -10,7 +10,7 @@
 
 		<key>managed_installs</key>
 		<array>
-			<string>AdobeCS5DesignPremium</string>
+			<string>CreativeSuite5DesignPremium</string>
 		</array>
 
 		<key>managed_uninstalls</key>

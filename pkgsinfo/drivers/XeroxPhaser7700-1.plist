@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Xerox Phaser 7700 Printing Software</string>
+	<key>installed_size</key>
+	<integer>1416</integer>
+	<key>installer_item_hash</key>
+	<string>b86129abcb1bfa91005b04e872db9cceb8668dbdbf71cef19792f930148e3040</string>
+	<key>installer_item_location</key>
+	<string>drivers/Xerox_Phaser_7700_Printing_Software.dmg</string>
+	<key>installer_item_size</key>
+	<integer>510</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>XeroxPhaser7700</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Phaser 7700 PPDs.pkg</string>
+			<key>installed_size</key>
+			<integer>1416</integer>
+			<key>packageid</key>
+			<string>com.xerox.officegroup.xeroxPhaser7700PrintingSoftware.phaser7700Ppds.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1</string>
+</dict>
+</plist>

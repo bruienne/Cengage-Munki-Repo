@@ -25,6 +25,8 @@
 			<string>Communicator13</string>
 			<string>Firefox</string>
 			<string>Skype</string>
+			<string>munkitools</string>
+			<string>VMwareFusion3</string>
 		</array>
 
 		<key>optional_installs</key>

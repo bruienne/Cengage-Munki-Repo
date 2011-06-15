@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>This installs the Xerox print driver support files.</string>
+	<key>display_name</key>
+	<string>Xerox Print Driver</string>
+	<key>installed_size</key>
+	<integer>89452</integer>
+	<key>installer_item_hash</key>
+	<string>4c6edecf11281fde01b57f429e3ea9981e0cda66b170024d24b87a80b1e7ffb7</string>
+	<key>installer_item_location</key>
+	<string>drivers/Xerox WorkCentre 7655_7665_7675 1.0.6.dmg</string>
+	<key>installer_item_size</key>
+	<integer>5735</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Xerox_WC_7655</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Xerox WorkCentre 7655_7665_7675 1.0.6.pkg</string>
+			<key>installed_size</key>
+			<integer>89452</integer>
+			<key>packageid</key>
+			<string>com.xerox.print.pde.xeroxfeatures.wc7655_7665_7675</string>
+			<key>version</key>
+			<string>1.0.6</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.6</string>
+</dict>
+</plist>

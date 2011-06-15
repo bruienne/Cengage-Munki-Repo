@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Xerox Phaser 8550 PPDs</string>
+	<key>installed_size</key>
+	<integer>3984</integer>
+	<key>installer_item_hash</key>
+	<string>0f0c38ec33ccaa39e99a8f78146315e0adc37a355dcf1b46ecd79c79a905c033</string>
+	<key>installer_item_location</key>
+	<string>drivers/xeroxPrintingSoftwareStingray.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1991</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>XeroxPhaser8550</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>xeroxPrintingSoftwareStingray.pkg</string>
+			<key>installed_size</key>
+			<integer>3984</integer>
+			<key>packageid</key>
+			<string>com.xerox.print.xeroxPhaser8550.xeroxPrintingSoftwareStingray.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1</string>
+</dict>
+</plist>

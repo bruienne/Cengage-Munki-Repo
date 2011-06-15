@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Installs the Mass Transit Web Client browser plug-in needed to use Cengage Learning's Mass Transit</string>
+	<key>display_name</key>
+	<string>MassTransit Web Client</string>
+	<key>installed_size</key>
+	<integer>40056</integer>
+	<key>installer_item_hash</key>
+	<string>bd4fbf4ff53f2a8bab8b6d7bb1e6ef729f620adf9973f9cac60137ca372efd4e</string>
+	<key>installer_item_location</key>
+	<string>plugins/mtwebclient722.pkg</string>
+	<key>installer_item_size</key>
+	<integer>11895</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>mtwebclient</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>40056</integer>
+			<key>packageid</key>
+			<string>com.grouplogic.masstransit</string>
+			<key>version</key>
+			<string>7210203</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7210203</string>
+</dict>
+</plist>

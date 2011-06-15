@@ -20,6 +20,7 @@
 
 		<key>managed_uninstalls</key>
 		<array>
+			<string>MacProductKeyFinder</string>
 		</array>
 
 		<key>managed_updates</key>

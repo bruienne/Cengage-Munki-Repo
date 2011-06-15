@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>printers</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>1607HPLJ4PLUS</string>
+	<key>installer_item_hash</key>
+	<string>1fee7cb341b2248c913b8fbecfbe54f5953b75f293b95cad169f292dbfb746d8</string>
+	<key>installer_item_location</key>
+	<string>printers/1607HPLJ4PLUS-1.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>13</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>1607HPLJ4PLUS</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>1607HPLJ4PLUS-1.0.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>com.cengage.1607HPLJ4PLUS</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>/etc/cups/printers_deployment/uninstalls/1607HPLJ4PLUS.sh</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
