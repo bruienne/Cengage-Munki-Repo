@@ -1,0 +1,33 @@
+<dict>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+
+		<key>included_manifests</key>
+		<array>
+			<string>cengage_munki_common_updates_apps</string>
+			<string>cengage_munki_common_updates_plugins</string>
+			<string>cengage_munki_laptop_updates_apps</string>
+			<string>cengage_munki_laptop_updates_plugins</string>
+			<string>cengage_munki_testing_uninstall_acrobatpro9</string>
+		</array>
+
+		<key>managed_installs</key>
+		<array>
+			<string>MunkiScripts</string>
+		</array>
+
+		<key>managed_uninstalls</key>
+		<array>
+			<string>MacProductKeyFinder</string>
+		</array>
+
+		<key>managed_updates</key>
+		<array>
+		</array>
+
+		<key>optional_installs</key>
+		<array>
+		</array>
+</dict>

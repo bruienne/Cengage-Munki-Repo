@@ -27,10 +27,12 @@
 			<string>Skype</string>
 			<string>munkitools</string>
 			<string>VMwareFusion3</string>
+			<string>StuffIt Expander</string>
 		</array>
 
 		<key>optional_installs</key>
 		<array>
+			<string>StuffIt Expander</string>
 		</array>
 
 </dict>

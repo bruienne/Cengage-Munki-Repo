@@ -873,6 +873,11 @@
 			<string>2.0</string>
 		</dict>
 	</array>
+		<key>preinstall_script</key>
+		<string>#!/bin/bash
+/usr/bin/logger "Munki: Running CreativeSuite5.5DesignPremium-5.5 preinstall_script..."
+/bin/mv /Library/ColorSync/Profiles /Library/ColorSync/Profiles_bak
+</string>
 	<key>uninstall_method</key>
 	<string>AdobeCS5AAMEEPackage</string>
 	<key>uninstallable</key>

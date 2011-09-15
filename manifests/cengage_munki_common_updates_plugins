@@ -25,6 +25,7 @@
 			<string>Flip4Mac WMV</string>
 			<string>Adobe Flash Player</string>
 			<string>DisableFlash10AutoUpdate</string>
+			<string>mtwebclient</string>
 		</array>
 
 		<key>optional_installs</key>

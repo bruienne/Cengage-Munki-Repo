@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>StuffIt Expander opens files created with WinZip®, 7zX, iShrink, SimplyRAR, Rarify, Rucksack (formerly iArchiver), BetterZip, RarMachine, GUI Tar, CleanArchiver, Springy, TarPit, RAR, Ez7z, Keka, and the compression utilities built into recent versions of Windows and Mac OS X..</string>
+	<key>display_name</key>
+	<string>Stuffit Expander</string>
+	<key>installer_item_hash</key>
+	<string>d38a0265c160273ae8ba8dc46ca13cfeec441338a4ebc6f4a8aa448337267cc1</string>
+	<key>installer_item_location</key>
+	<string>apps/StuffIt Expander.dmg</string>
+	<key>installer_item_size</key>
+	<integer>23715</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.stuffit.StuffIt-Expander</string>
+			<key>CFBundleName</key>
+			<string>StuffIt Expander</string>
+			<key>CFBundleShortVersionString</key>
+			<string>15.0.2</string>
+			<key>minosversion</key>
+			<string>10.5.0</string>
+			<key>path</key>
+			<string>/Applications/StuffIt Expander.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>StuffIt Expander.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>StuffIt Expander</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>15.0.2</string>
+</dict>
+</plist>

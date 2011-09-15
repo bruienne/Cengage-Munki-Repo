@@ -18,6 +18,7 @@
 
 		<key>managed_updates</key>
 		<array>
+			<string>NetBackup</string>
 		</array>
 
 		<key>optional_installs</key>

@@ -14,9 +14,9 @@
 		</array>
 	<key>managed_installs</key>
 		<array>
+			<string>AcrobatPro9</string>
 			<string>Office2011</string>
 			<string>MunkiScripts</string>
-			<string>AcrobatPro9</string>
 			<string>DisableFlash10AutoUpdate</string>
 		</array>
 	<key>managed_updates</key>
@@ -47,6 +47,7 @@
 			<string>Skype</string>
 			<string>DisableFlash10AutoUpdate</string>
 			<string>mac_SSLVpn</string>
+			<string>NetBackup</string>
 		</array>
 	<key>optional_installs</key>
 		<array>

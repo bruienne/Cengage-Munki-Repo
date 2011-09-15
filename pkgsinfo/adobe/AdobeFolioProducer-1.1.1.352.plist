@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>adobe_install_info</key>
+	<dict>
+		<key>media_signature</key>
+		<string>{5A439D88-735A-11E0-A4CD-7477AA47DCB5}</string>
+		<key>payload_count</key>
+		<integer>25</integer>
+		<key>uninstallxml</key>
+		<string>&lt;Deployment&gt;
+                &lt;Properties&gt;
+                    &lt;Property name="edtWorkflow"&gt;1&lt;/Property&gt;
+                    &lt;Property name="mediaSignature"&gt;{5A439D88-735A-11E0-A4CD-7477AA47DCB5}&lt;/Property&gt;
+                    &lt;Property name="uninstall"&gt;1&lt;/Property&gt;
+                &lt;/Properties&gt;
+                &lt;Payloads&gt;
+                    &lt;!-- Folio Producer tools for InDesign CS5 --&gt;
+                    &lt;Payload adobeCode="{5A439D88-735A-11E0-A4CD-7477AA47DCB5}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                &lt;/Payloads&gt;
+            &lt;/Deployment&gt;</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>With InDesign CS5.5, designers can use the new Folio Producer toolset to insert interactvity into layouts, preview publications on the desktop, and upload them for final production with Digital Publishing Suite hosted services.</string>
+	<key>display_name</key>
+	<string>Adobe Folio Producer Digital Publish Tools</string>
+	<key>installed_size</key>
+	<integer>4244</integer>
+	<key>installer_item_hash</key>
+	<string>a4f2e73d9f1360e013383992afb30af45c04b616873e856aca00756e38cfa76d</string>
+	<key>installer_item_location</key>
+	<string>adobe/Adobe Folio Producer 1.1.1_Install.dmg</string>
+	<key>installer_item_size</key>
+	<integer>130996</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5AAMEEPackage</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{5A439D88-735A-11E0-A4CD-7477AA47DCB5}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobeFolioProducer</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6C526550-9D2A-11E0-9436-55DB539ED6D5}</string>
+			<key>display_name</key>
+			<string>Digital Publishing</string>
+			<key>installed_size</key>
+			<integer>4244</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{BCFCC962-9D27-11E0-999E-04BF539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (cs_CZ)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{D6D5D586-9D27-11E0-A86D-12C0539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (da_DK)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{EE4C7878-9D27-11E0-9121-13C1539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (de_DE)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{03FFA082-9D28-11E0-8CFD-21C2539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (en_GB)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{40972B50-9D28-11E0-9897-46C4539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (en_US)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6C6255B6-9D28-11E0-AC20-55C6539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (es_ES)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{89C50C5C-9D28-11E0-AA42-6CC7539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (es_MX)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A210BF2C-9D28-11E0-9741-6EC8539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (fi_FI)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{B8FB0F62-9D28-11E0-88C8-7CC9539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (fr_CA)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{CDE5F5F4-9D28-11E0-A1C4-8ACA539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (fr_FR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{EEFD5818-9D28-11E0-B1CA-9ACB539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (hu_HU)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{07A8E364-9D29-11E0-974F-A4CC539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (it_IT)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{1E0BF54C-9D29-11E0-A44F-B2CD539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (ja_JP)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{4C41CF2C-9D29-11E0-88EB-C1CF539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (ko_KR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{640DFE82-9D29-11E0-B48A-D7D0539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (nb_NO)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{79AAC6E4-9D29-11E0-9BFE-D8D1539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (nl_NL)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{91A45058-9D29-11E0-916C-E7D2539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (pl_PL)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{B1D1B384-9D29-11E0-B618-F6D3539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (pt_BR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{CA791E0E-9D29-11E0-8ECF-06D5539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (ru_RU)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{E9D47E7E-9D29-11E0-BDBB-1ED6539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (sv_SE)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{006A8138-9D2A-11E0-B347-1FD7539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (tr_TR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{1A9622C4-9D2A-11E0-B262-2ED8539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (uk_UA)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{32DD6A72-9D2A-11E0-BDC7-3CD9539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (zh_CN)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{55CF37C2-9D2A-11E0-95E6-54DA539ED6D5}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (zh_TW)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.1.1.352</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>AdobeCS5AAMEEPackage</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.1.1.352</string>
+</dict>
+</plist>

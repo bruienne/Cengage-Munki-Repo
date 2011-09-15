@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>unattended_install</key>
+	<true/>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Required to connect to the Cengage Learning VPN.</string>
+	<key>display_name</key>
+	<string>F5 Firepass SSL VPN</string>
+	<key>installed_size</key>
+	<integer>612</integer>
+	<key>installer_item_hash</key>
+	<string>c528c02e3fd816f98b508dd653fcd68adb2b7dcf6c7ad52b4e6e1512a9964ab4</string>
+	<key>installer_item_location</key>
+	<string>plugins/mac_SSLVpn-6031.2011.0622.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>207</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>mac_SSLVpn</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>6031.2011.0622.1</string>
+			<key>path</key>
+			<string>/Library/Internet Plug-Ins/F5 SSL VPN Plugin.plugin/Contents/Info.plist</string>
+			<key>type</key>
+			<string>plist</string>
+		</dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>mac_SSLVpn.pkg</string>
+			<key>installed_size</key>
+			<integer>612</integer>
+			<key>packageid</key>
+			<string>com.f5.NetworkAccess.pkg</string>
+			<key>version</key>
+			<string>2008.10</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6031.2011.0622.1</string>
+</dict>
+</plist>

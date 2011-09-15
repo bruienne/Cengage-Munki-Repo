@@ -2,54 +2,57 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>RestartAction</key>
-	<string>RequireLogout</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
 	</array>
+	<key>description</key>
+	<string></string>
 	<key>display_name</key>
-	<string>Adobe Acrobat Pro Update</string>
+	<string>Firefox</string>
 	<key>installer_item_hash</key>
-	<string>23b9eaec17026f6f0f89865a9665bc9a5906b61ce1e5a91aa5c64c548388b9e3</string>
+	<string>cc911d2c61d8268bcb0401674afebe867745540576b649a313d21438a245e304</string>
 	<key>installer_item_location</key>
-	<string>adobe/AcroProUpd944_all.dmg</string>
+	<string>apps/Firefox 3.6.20.dmg</string>
 	<key>installer_item_size</key>
-	<integer>14428</integer>
+	<integer>19196</integer>
 	<key>installer_type</key>
-	<string>AdobeAcrobatUpdater</string>
+	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.adobe.Acrobat.Pro</string>
+			<string>org.mozilla.firefox</string>
 			<key>CFBundleName</key>
-			<string>Acrobat</string>
+			<string>Firefox</string>
 			<key>CFBundleShortVersionString</key>
-			<string>9.4.4</string>
+			<string>3.6.20</string>
 			<key>path</key>
-			<string>/Applications/Adobe Acrobat 9 Pro/Adobe Acrobat Pro.app</string>
+			<string>/Applications/Firefox.app</string>
 			<key>type</key>
 			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Firefox.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>AcrobatPro9Update</string>
-	<key>requires</key>
-	<array>
-		<string>AcrobatPro9Update-9.4.3.0.0</string>
-	</array>
+	<string>Firefox</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
 	<key>uninstallable</key>
-	<false/>
-	<key>update_for</key>
-	<array>
-		<string>AcrobatPro9</string>
-	</array>
+	<true/>
 	<key>version</key>
-	<string>9.4.4.0.0</string>
+	<string>3.6.20</string>
 </dict>
 </plist>

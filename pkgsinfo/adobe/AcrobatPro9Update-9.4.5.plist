@@ -10,8 +10,6 @@
 	<array>
 		<string>testing</string>
 	</array>
-	<key>description</key>
-	<string></string>
 	<key>display_name</key>
 	<string>Adobe Acrobat Pro Update</string>
 	<key>installer_item_hash</key>
@@ -43,12 +41,20 @@
 	<string>AcrobatPro9Update</string>
 	<key>requires</key>
 	<array>
-		<string>AcrobatPro9Update-9.4.1.0.0</string>
+		<string>AcrobatPro9Update-9.4.4.0.0</string>
 	</array>
 	<key>uninstallable</key>
 	<false/>
+	<key>preinstall_script</key>
+	<string>#!/bin/bash
+if [[ -f /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml.bak ]]; then
+/usr/bin/logger "Munki: Running AcrobatPro9Update-9.4.5 preinstall_script..."
+/bin/mv /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml.bak /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
+/bin/mv /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml.bak /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
+fi</string>
 	<key>postinstall_script</key>
 	<string>#!/bin/bash
+/usr/bin/logger "Munki: Running AcrobatPro9Update-9.4.5 postinstall_script..."
 sed -i .bak 's/\&lt;string\&gt;AcroEFGPro90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
 sed -i .bak 's/\&lt;string\&gt;AcroEFGDist90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
 	</string>
@@ -57,6 +63,6 @@ sed -i .bak 's/\&lt;string\&gt;AcroEFGDist90SelfHeal\.xml\&lt;\/string\&gt;//g' 
 		<string>AcrobatPro9</string>
 	</array>
 	<key>version</key>
-	<string>9.4.5</string>
+	<string>9.4.5.0.0</string>
 </dict>
 </plist>

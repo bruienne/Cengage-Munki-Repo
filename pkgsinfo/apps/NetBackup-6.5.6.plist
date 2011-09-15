@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>NetBackup 6.5.6 Client</string>
+	<key>installed_size</key>
+	<integer>32745</integer>
+	<key>installer_item_hash</key>
+	<string>a77bebee345f22fb4a24285551524e599d8c02bb07b4f27ca9c6df7fcb5455c1</string>
+	<key>installer_item_location</key>
+	<string>apps/NetBackup 6.5.6 Client.dmg</string>
+	<key>installer_item_size</key>
+	<integer>17511</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>NetBackup</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>NetBackup 6.5.6 Client.pkg</string>
+			<key>name</key>
+			<string>Symantec NetBackup Client for Mac OS X 6.5.6</string>
+			<key>packageid</key>
+			<string>com.cengage.package.netbackup6.5.6client</string>
+			<key>version</key>
+			<string>6.5.6</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<string>NetBackup-6.5.2</string>
+	<key>version</key>
+	<string>6.5.6</string>
+</dict>
+</plist>
