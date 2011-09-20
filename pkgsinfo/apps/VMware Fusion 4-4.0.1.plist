@@ -47,7 +47,7 @@
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.5.8</string>
+	<string>10.6.7</string>
 	<key>name</key>
 	<string>VMwareFusion4</string>
 	<key>postinstall_script</key>
