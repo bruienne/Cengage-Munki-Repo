@@ -7314,6 +7314,66 @@ fi</string>
 			<string>testing</string>
 		</array>
 		<key>description</key>
+		<string>VMware Fusion 4 is recommended for home users, students and business professionals who are looking for the easiest, fastest and most reliable way to run Windows programs on their Macs without rebooting.</string>
+		<key>display_name</key>
+		<string>VMware Fusion 4</string>
+		<key>installer_item_hash</key>
+		<string>3fa7468252a907904db44edfa55bac6e573295fa2acd8544899881c4efb2e7db</string>
+		<key>installer_item_location</key>
+		<string>apps/VMware Fusion.dmg</string>
+		<key>installer_item_size</key>
+		<integer>193767</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.vmware.fusion</string>
+				<key>CFBundleName</key>
+				<string>VMware Fusion</string>
+				<key>CFBundleShortVersionString</key>
+				<string>4.0.1</string>
+				<key>minosversion</key>
+				<string>10.6.7</string>
+				<key>path</key>
+				<string>/Applications/VMware Fusion.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>VMware Fusion.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.8</string>
+		<key>name</key>
+		<string>VMwareFusion4</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/bash
+/bin/bash "/Applications/VMware Fusion.app/Contents/Library/Initialize VMware Fusion.tool" set
+	</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.0.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
 		<string></string>
 		<key>display_name</key>
 		<string>VMware Fusion 3.x Update</string>
@@ -7715,6 +7775,89 @@ fi</string>
 		<true/>
 		<key>version</key>
 		<string>2.12.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Microsoft Lync for Mac</string>
+		<key>installed_size</key>
+		<integer>222799</integer>
+		<key>installer_item_hash</key>
+		<string>89585da7c3f05228950233cbbd2c680f7819537a4282625102a7134c75a190ab</string>
+		<key>installer_item_location</key>
+		<string>microsoft/Lync Installer.dmg</string>
+		<key>installer_item_size</key>
+		<integer>57759</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.8</string>
+		<key>name</key>
+		<string>LyncMac2011</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Lync14_all_lync.pkg</string>
+				<key>installed_size</key>
+				<integer>216718</integer>
+				<key>packageid</key>
+				<string>com.microsoft.lync.all.lync.pkg.14.0.0</string>
+				<key>version</key>
+				<string>14.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Lync14_all_dock.pkg</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.lync.all.dock.pkg.14.0.0</string>
+				<key>version</key>
+				<string>14.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>Lync14_all_meetingjoinplugin.pkg</string>
+				<key>installed_size</key>
+				<integer>738</integer>
+				<key>packageid</key>
+				<string>com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.0</string>
+				<key>version</key>
+				<string>14.0.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>mau_all_autoupdate.pkg</string>
+				<key>installed_size</key>
+				<integer>1969</integer>
+				<key>packageid</key>
+				<string>com.microsoft.mau.all.autoupdate.pkg.2.3.3</string>
+				<key>version</key>
+				<string>2.3.3</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>merp_all_errorreporting.pkg</string>
+				<key>installed_size</key>
+				<integer>3374</integer>
+				<key>packageid</key>
+				<string>com.microsoft.merp.all.errorreporting.pkg.2.2.7</string>
+				<key>version</key>
+				<string>2.2.7</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>14.0.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

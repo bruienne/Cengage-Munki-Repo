@@ -52,5 +52,6 @@
 	<key>optional_installs</key>
 		<array>
 			<string>munkitools</string>
+			<string>VMwareFusion4</string>
 		</array>
 </dict>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Microsoft Lync for Mac</string>
+	<key>installed_size</key>
+	<integer>222799</integer>
+	<key>installer_item_hash</key>
+	<string>89585da7c3f05228950233cbbd2c680f7819537a4282625102a7134c75a190ab</string>
+	<key>installer_item_location</key>
+	<string>microsoft/Lync Installer.dmg</string>
+	<key>installer_item_size</key>
+	<integer>57759</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.8</string>
+	<key>name</key>
+	<string>LyncMac2011</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Lync14_all_lync.pkg</string>
+			<key>installed_size</key>
+			<integer>216718</integer>
+			<key>packageid</key>
+			<string>com.microsoft.lync.all.lync.pkg.14.0.0</string>
+			<key>version</key>
+			<string>14.0.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Lync14_all_dock.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>com.microsoft.lync.all.dock.pkg.14.0.0</string>
+			<key>version</key>
+			<string>14.0.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Lync14_all_meetingjoinplugin.pkg</string>
+			<key>installed_size</key>
+			<integer>738</integer>
+			<key>packageid</key>
+			<string>com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.0</string>
+			<key>version</key>
+			<string>14.0.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>mau_all_autoupdate.pkg</string>
+			<key>installed_size</key>
+			<integer>1969</integer>
+			<key>packageid</key>
+			<string>com.microsoft.mau.all.autoupdate.pkg.2.3.3</string>
+			<key>version</key>
+			<string>2.3.3</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>merp_all_errorreporting.pkg</string>
+			<key>installed_size</key>
+			<integer>3374</integer>
+			<key>packageid</key>
+			<string>com.microsoft.merp.all.errorreporting.pkg.2.2.7</string>
+			<key>version</key>
+			<string>2.2.7</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>14.0.0</string>
+</dict>
+</plist>
