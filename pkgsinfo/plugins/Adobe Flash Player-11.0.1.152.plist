@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Firefox</string>
+			<string>Safari</string>
+			<string>Opera</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>dev</string>
+		</array>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>36752</integer>
+		<key>installer_item_hash</key>
+		<string>55a99af658358cb6dd6d92ab1bcbc5e9d3a28601957bda41c29bebad00957205</string>
+		<key>installer_item_location</key>
+		<string>plugins/Adobe Flash Player-11.0.1.152.dmg</string>
+		<key>installer_item_size</key>
+		<integer>14071</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Adobe Flash Player</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Adobe Flash Player.pkg</string>
+				<key>installed_size</key>
+				<integer>36752</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>11.0.1.152</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>11.0.1.152</string>
+	</dict>
+</plist>

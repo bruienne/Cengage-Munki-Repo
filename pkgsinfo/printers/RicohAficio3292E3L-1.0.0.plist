@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>dev</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Ricoh Aficio MP C4501/C4501A/C4501G/C4501AG/C5501/C5501A/C5501G/C5501AG Installer</string>
+	<key>installed_size</key>
+	<integer>1254</integer>
+	<key>installer_item_hash</key>
+	<string>b365cd9f6f273fbec7631e0ded828b0788b16778b2645e8c2a301708f0da58d0</string>
+	<key>installer_item_location</key>
+	<string>printers/PPD_Installer_RI3292E3L.dmg</string>
+	<key>installer_item_size</key>
+	<integer>405</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>RicohAficio3292E3L</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>PPD_Installer_RI3292E3L.pkg</string>
+			<key>packageid</key>
+			<string>com.ricoh.r47026L9</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.0</string>
+</dict>
+</plist>

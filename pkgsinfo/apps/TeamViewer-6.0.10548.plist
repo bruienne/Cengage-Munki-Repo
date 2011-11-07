@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>With TeamViewer you can remotely control any PC anywhere on the Internet. No installation is required, just run the application on both sides and connect - even through tight firewalls.</string>
+	<key>display_name</key>
+	<string>TeamViewer 6</string>
+	<key>installed_size</key>
+	<integer>67392</integer>
+	<key>installer_item_hash</key>
+	<string>870bdc3170be20f4a9136d53ff96276ef4855093c798956401329b1f66555e07</string>
+	<key>installer_item_location</key>
+	<string>apps/TeamViewer6.dmg</string>
+	<key>installer_item_size</key>
+	<integer>18777</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>TeamViewer</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>TeamViewer.pkg</string>
+			<key>installed_size</key>
+			<integer>67392</integer>
+			<key>packageid</key>
+			<string>com.teamviewer.teamviewer</string>
+			<key>version</key>
+			<string>6.0.10548</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.0.10548</string>
+</dict>
+</plist>

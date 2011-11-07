@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>adobe_install_info</key>
+	<dict>
+		<key>media_signature</key>
+		<string>{78E6AED6-9091-425A-A2F6-47D15A2D845D}</string>
+		<key>payload_count</key>
+		<integer>63</integer>
+		<key>uninstallxml</key>
+		<string>&lt;Deployment&gt;
+                &lt;Properties&gt;
+                    &lt;Property name="edtWorkflow"&gt;1&lt;/Property&gt;
+                    &lt;Property name="mediaSignature"&gt;{78E6AED6-9091-425A-A2F6-47D15A2D845D}&lt;/Property&gt;
+                    &lt;Property name="uninstall"&gt;1&lt;/Property&gt;
+                &lt;/Properties&gt;
+                &lt;Payloads&gt;
+                    &lt;!-- Adobe Photoshop CS5.1 --&gt;
+                    &lt;Payload adobeCode="{08EF22BC-43B2-4B4E-BA12-52B18F418F38}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe InDesign CS5.5 --&gt;
+                    &lt;Payload adobeCode="{0CCF0458-5171-11E0-BC45-DC59E3AB3DC5}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Illustrator CS5.1 --&gt;
+                    &lt;Payload adobeCode="{A516708E-EC03-40F5-B82E-0851A44B3780}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Acrobat X Pro --&gt;
+                    &lt;Payload adobeCode="{AC76BA86-1033-F400-7760-000000000005}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                &lt;/Payloads&gt;
+            &lt;/Deployment&gt;</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Adobe® Creative Suite® 5.5 Design Standard software combines industry-standard tools for editing digital images, creating vector graphics, and laying out top-quality print documents with elegant typography. Extend beyond print with dynamic eBooks and digital documents that marry interactivity with the quality of traditional print design.</string>
+	<key>display_name</key>
+	<string>Creative Suite 5.5 Design Standard</string>
+	<key>installed_size</key>
+	<integer>2639703</integer>
+	<key>installer_item_hash</key>
+	<string>ad9ac9b0512a725877f113b6d57b9db0aa0a4158e19e95fe84814cd393dc65df</string>
+	<key>installer_item_location</key>
+	<string>adobe/Adobe Design Standard CS5.5_Install.dmg</string>
+	<key>installer_item_size</key>
+	<integer>2536344</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5AAMEEPackage</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{78E6AED6-9091-425A-A2F6-47D15A2D845D}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>CreativeSuite5.5DesignStandard</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{AC76BA86-1033-F400-7760-000000000005}</string>
+			<key>display_name</key>
+			<string>Acrobat X Pro</string>
+			<key>installed_size</key>
+			<integer>490869</integer>
+			<key>version</key>
+			<string>10.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{0AA9D11A-227D-45AB-A5D5-6F5F6E81D5E3}</string>
+			<key>display_name</key>
+			<string>Adobe Player for Embedding 3.1</string>
+			<key>installed_size</key>
+			<integer>69647</integer>
+			<key>version</key>
+			<string>3.101</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{EE85C227-0148-4825-B659-6A1E142571EE}</string>
+			<key>display_name</key>
+			<string>Adobe Bridge CS5.1</string>
+			<key>installed_size</key>
+			<integer>225956</integer>
+			<key>version</key>
+			<string>4.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{D682C558-6F3F-4800-885C-4C5EB1B7338C}</string>
+			<key>display_name</key>
+			<string>Adobe Buzzword CS5.5</string>
+			<key>installed_size</key>
+			<integer>1452</integer>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{37AB3C65-E02C-4DCF-B0E0-4C2E253D8FA3}</string>
+			<key>display_name</key>
+			<string>Photoshop Camera Raw</string>
+			<key>installed_size</key>
+			<integer>26855</integer>
+			<key>version</key>
+			<string>6.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{FD58D99B-9927-4226-8E00-959A4F76BD89}</string>
+			<key>display_name</key>
+			<string>Photoshop Camera Raw</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>6.3</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{3F023875-4A52-4605-9DB6-A88D4A813E8D}</string>
+			<key>display_name</key>
+			<string>Camera Profiles Installer</string>
+			<key>installed_size</key>
+			<integer>164133</integer>
+			<key>version</key>
+			<string>6.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A189C479-C7CD-4E08-8CCF-D999B68C0C71}</string>
+			<key>display_name</key>
+			<string>Camera Profiles Installer</string>
+			<key>installed_size</key>
+			<integer>2392</integer>
+			<key>version</key>
+			<string>6.3</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{BD0D6363-E961-410F-8BF4-ECD8795F3923}</string>
+			<key>display_name</key>
+			<string>Adobe CMaps CS5</string>
+			<key>installed_size</key>
+			<integer>6365</integer>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{54D89F03-8EED-4FF9-BCDF-3B2E11D448A6}</string>
+			<key>display_name</key>
+			<string>AdobeColorCommonSetCMYK</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{45063C56-A2A2-4FD1-A56A-A964723EEE1E}</string>
+			<key>display_name</key>
+			<string>AdobeColorCommonSetRGB</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{FECCB1BF-038D-41C2-861B-4560E7667005}</string>
+			<key>display_name</key>
+			<string>Adobe Color EU Extra Settings CS5.5</string>
+			<key>installed_size</key>
+			<integer>1976</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A80C015C-1939-42A5-AD2F-E76C7F194505}</string>
+			<key>display_name</key>
+			<string>Adobe Color JA Extra Settings CS5.5</string>
+			<key>installed_size</key>
+			<integer>2799</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{11E1188F-E576-47BC-B215-600C02C7EABF}</string>
+			<key>display_name</key>
+			<string>Adobe Color NA Recommended Settings CS5.5</string>
+			<key>installed_size</key>
+			<integer>2333</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{4603E0C5-6880-4A4F-BCF8-DF1F6AE0E317}</string>
+			<key>display_name</key>
+			<string>Adobe Color - Photoshop Specific CS5.5</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{83478D6E-4AA8-11E0-A479-24B1F9D7AC32}</string>
+			<key>display_name</key>
+			<string>Adobe Content Viewer</string>
+			<key>installed_size</key>
+			<integer>44701</integer>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{BD85DFD4-005F-4219-8E27-C922CC4D8A61}</string>
+			<key>display_name</key>
+			<string>Adobe CSXS Extensions CS5.5</string>
+			<key>installed_size</key>
+			<integer>7310</integer>
+			<key>version</key>
+			<string>2.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{71BC8278-815D-4F8C-8FA5-C6F782C73892}</string>
+			<key>display_name</key>
+			<string>Adobe CSXS Infrastructure CS5.5</string>
+			<key>installed_size</key>
+			<integer>8866</integer>
+			<key>version</key>
+			<string>2.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{78E6AED6-9091-425A-A2F6-47D15A2D845D}</string>
+			<key>display_name</key>
+			<string>Creative Suite 5.5 Design Standard</string>
+			<key>installed_size</key>
+			<integer>3145</integer>
+			<key>version</key>
+			<string>5.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{49E6D00F-3456-11E0-AE83-842B2B67A8CC}</string>
+			<key>display_name</key>
+			<string>Adobe Device Central CS5.5</string>
+			<key>installed_size</key>
+			<integer>187691</integer>
+			<key>version</key>
+			<string>3.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{99BDA97A-4AA8-11E0-9E8D-32B2F9D7AC32}</string>
+			<key>display_name</key>
+			<string>Digital Publishing</string>
+			<key>installed_size</key>
+			<integer>2062</integer>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C1646326-4AA6-11E0-AE8E-4C9CF9D7AC32}</string>
+			<key>display_name</key>
+			<string>Adobe Digital Publishing Application Language Files (en_US)</string>
+			<key>installed_size</key>
+			<integer>1074</integer>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{1A1E5FF9-D0FD-42A3-8E18-E5E7E95E1AB4}</string>
+			<key>display_name</key>
+			<string>Adobe Dynamiclink Support</string>
+			<key>installed_size</key>
+			<integer>13133</integer>
+			<key>version</key>
+			<string>5.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{9BA136BE-0077-41E1-AD56-56AB5D4A1A67}</string>
+			<key>display_name</key>
+			<string>Adobe ExtendScript Toolkit CS5.5</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>3.6.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{4058E728-84D8-45CE-8E2D-5F35BD6659A1}</string>
+			<key>display_name</key>
+			<string>Adobe Extension Manager CS5.5</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>5.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{E39A5ABD-516B-46F9-A042-694BBA6A4E08}</string>
+			<key>display_name</key>
+			<string>Adobe Fonts Recommended</string>
+			<key>installed_size</key>
+			<integer>124042</integer>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{CBDD7465-CE11-4A58-9497-C370B65923F1}</string>
+			<key>display_name</key>
+			<string>Adobe Fonts Required</string>
+			<key>installed_size</key>
+			<integer>124041</integer>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{0175676F-8C92-49F2-9131-D0D6AD654B41}</string>
+			<key>display_name</key>
+			<string>AdobeHelp</string>
+			<key>installed_size</key>
+			<integer>5664</integer>
+			<key>version</key>
+			<string>3.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{62ED7AE1-01FA-4066-97B7-1CD93A68DD0D}</string>
+			<key>display_name</key>
+			<string>Adobe Hunspell Linguistics Plugin CS5.5</string>
+			<key>installed_size</key>
+			<integer>107166</integer>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A516708E-EC03-40F5-B82E-0851A44B3780}</string>
+			<key>display_name</key>
+			<string>Adobe Illustrator CS5.1</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>15.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{9F747BEC-FB4E-4830-8C58-363B8DCC26EB}</string>
+			<key>display_name</key>
+			<string>Adobe Illustrator CS5.1 LangPack (en_US)</string>
+			<key>installed_size</key>
+			<integer>389639</integer>
+			<key>version</key>
+			<string>15.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{0CCF0458-5171-11E0-BC45-DC59E3AB3DC5}</string>
+			<key>display_name</key>
+			<string>Adobe InDesign CS5.5</string>
+			<key>installed_size</key>
+			<integer>255611</integer>
+			<key>version</key>
+			<string>7.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{03FB981A-5170-11E0-A90E-3CEDE2AB3DC5}</string>
+			<key>display_name</key>
+			<string>Adobe InDesign CS5.5 Application Base Files2</string>
+			<key>installed_size</key>
+			<integer>72847</integer>
+			<key>version</key>
+			<string>7.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{CE6E1448-516F-11E0-B3C0-13EDE2AB3DC5}</string>
+			<key>display_name</key>
+			<string>Adobe InDesign CS5.5 Application Feature Set Files (Roman)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>7.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{ED9DC850-516E-11E0-9096-1FE5E2AB3DC5}</string>
+			<key>display_name</key>
+			<string>Adobe InDesign CS5.5 Application Language Files (en_US)</string>
+			<key>installed_size</key>
+			<integer>930</integer>
+			<key>version</key>
+			<string>7.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F313167E-5172-11E0-ACE7-30C2E3AB3DC5}</string>
+			<key>display_name</key>
+			<string>Adobe InDesign CS5.5 Common Base Files</string>
+			<key>installed_size</key>
+			<integer>44</integer>
+			<key>version</key>
+			<string>7.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{75CD59C0-516F-11E0-892C-26ECE2AB3DC5}</string>
+			<key>display_name</key>
+			<string>Adobe InDesign CS5.5 Common Language Files (en_US)</string>
+			<key>installed_size</key>
+			<integer>40970</integer>
+			<key>version</key>
+			<string>7.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F8ABD584-A99C-4304-AC4B-CCFD0914D871}</string>
+			<key>display_name</key>
+			<string>Adobe Linguistics CS5.5</string>
+			<key>installed_size</key>
+			<integer>38799</integer>
+			<key>version</key>
+			<string>5.5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A44863BF-8DB8-4D22-88DB-5A02BE319840}</string>
+			<key>display_name</key>
+			<string>Adobe Linguistics CS5</string>
+			<key>installed_size</key>
+			<integer>38182</integer>
+			<key>version</key>
+			<string>5.0.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{4A8546D0-CEDF-48C1-9BA1-DD5B4ADFC154}</string>
+			<key>display_name</key>
+			<string>Adobe Mini Bridge CS5.1</string>
+			<key>installed_size</key>
+			<integer>4541</integer>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{AC003BC0-704F-4F02-A72E-AC8B7044DE24}</string>
+			<key>display_name</key>
+			<string>Adobe Output Module</string>
+			<key>installed_size</key>
+			<integer>7674</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{BAE5212B-6651-4AD8-B26A-1B284D2665C6}</string>
+			<key>display_name</key>
+			<string>Adobe PDF Library Files CS5</string>
+			<key>installed_size</key>
+			<integer>69571</integer>
+			<key>version</key>
+			<string>9.9</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A2502D10-2D75-4620-8A8B-73F39D5C1243}</string>
+			<key>display_name</key>
+			<string>PDF Settings CS5</string>
+			<key>installed_size</key>
+			<integer>590</integer>
+			<key>version</key>
+			<string>10.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{08EF22BC-43B2-4B4E-BA12-52B18F418F38}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5.1</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>12.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{EDE888ED-3BD7-4D8C-AB35-7E4C661A94D9}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5.1 English Language Pack</string>
+			<key>installed_size</key>
+			<integer>36722</integer>
+			<key>version</key>
+			<string>12.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{EF45880C-DD84-46C3-A054-0BC5F76A6BBE}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5.1 Support</string>
+			<key>installed_size</key>
+			<integer>927</integer>
+			<key>version</key>
+			<string>12.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{4B204697-D302-42D9-94B4-8BDDE6DD359C}</string>
+			<key>display_name</key>
+			<string>Adobe ReviewPanel CS5.5</string>
+			<key>installed_size</key>
+			<integer>1748</integer>
+			<key>version</key>
+			<string>3.0.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{4C08199E-0D93-4227-8325-F024E71CA7A1}</string>
+			<key>display_name</key>
+			<string>Adobe SING CS5</string>
+			<key>installed_size</key>
+			<integer>14845</integer>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{3450d4c5-a82b-4428-a512-842ee1555a14}</string>
+			<key>display_name</key>
+			<string>CSXS Story Extension</string>
+			<key>installed_size</key>
+			<integer>350</integer>
+			<key>version</key>
+			<string>2.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{ED28819E-310F-4F17-925C-C69B0A1C1F7F}</string>
+			<key>display_name</key>
+			<string>Suite Shared Configuration CS5.5</string>
+			<key>installed_size</key>
+			<integer>15402</integer>
+			<key>version</key>
+			<string>2.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A1181890-9FA4-11DF-A25D-A35DF04EC7B1}</string>
+			<key>display_name</key>
+			<string>Adobe Toolhints CS5.5</string>
+			<key>installed_size</key>
+			<integer>407</integer>
+			<key>version</key>
+			<string>1.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6F3A624B-1B72-4081-96E8-23261F389C5C}</string>
+			<key>display_name</key>
+			<string>Adobe Type Support CS5</string>
+			<key>installed_size</key>
+			<integer>5856</integer>
+			<key>version</key>
+			<string>10.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{D8B9B5FB-D388-4D79-AA4B-6C09641189F6}</string>
+			<key>display_name</key>
+			<string>Adobe Utilities CS5.5</string>
+			<key>installed_size</key>
+			<integer>3</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{EB186BF2-0A84-40A2-B794-0326D3DF9973}</string>
+			<key>display_name</key>
+			<string>Adobe Color Video Profiles CS CS5.5</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{419B81A0-6282-456C-9B1E-8DBABA0DE2DC}</string>
+			<key>display_name</key>
+			<string>Adobe WinSoft Linguistics Plugin CS5.5</string>
+			<key>installed_size</key>
+			<integer>9486</integer>
+			<key>version</key>
+			<string>1.2</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{007A2A28-D6A8-4D91-9A2B-568FF8052215}</string>
+			<key>display_name</key>
+			<string>Adobe WinSoft Linguistics Plugin CS5</string>
+			<key>installed_size</key>
+			<integer>9486</integer>
+			<key>version</key>
+			<string>1.2</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6A2E619B-E4AC-433B-A648-D458CE543A96}</string>
+			<key>display_name</key>
+			<string>Adobe XMP Panels CS5</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{5C0FEBDA-5A0E-4FC8-91CB-229A4C1561E9}</string>
+			<key>display_name</key>
+			<string>Adobe XMP Panels CS5</string>
+			<key>installed_size</key>
+			<integer>299</integer>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{0D96CFE6-376D-44B8-808A-16F3BEB73263}</string>
+			<key>display_name</key>
+			<string>Adobe Media Encoder CS5.5</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>5.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{22C26C10-5C22-4674-A52C-100112664305}</string>
+			<key>display_name</key>
+			<string>LangPack (English) for Adobe Device Central CS5.5</string>
+			<key>installed_size</key>
+			<integer>309</integer>
+			<key>version</key>
+			<string>3.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{270C312D-7EC7-474C-BEB2-79CD398E02A3}</string>
+			<key>display_name</key>
+			<string>HIL Help Search</string>
+			<key>installed_size</key>
+			<integer>302</integer>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{DD18D60C-87B1-47D9-8312-67508B402FB9}</string>
+			<key>display_name</key>
+			<string>SiteCatalyst® NetAverages™</string>
+			<key>installed_size</key>
+			<integer>456</integer>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{4FFA83C0-007A-4DB3-955C-B5EEE73BEDAF}</string>
+			<key>display_name</key>
+			<string>Adobe SwitchBoard 2.0</string>
+			<key>installed_size</key>
+			<integer>35</integer>
+			<key>version</key>
+			<string>2.0</string>
+		</dict>
+	</array>
+	<key>preinstall_script</key>
+	<string>#!/bin/bash
+/usr/bin/logger "Munki: Running CreativeSuite5.5DesignStandard-5.5 preinstall_script..."
+/bin/mv /Library/ColorSync/Profiles /Library/ColorSync/Profiles_bak
+</string>
+	<key>uninstall_method</key>
+	<string>AdobeCS5AAMEEPackage</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.5</string>
+</dict>
+</plist>

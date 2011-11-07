@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Suitcase Fusion 3 helps you quickly find the perfect font seamlessly from within your favorite design application and use it anywhere – even on the web!</string>
+	<key>display_name</key>
+	<string>Suitcase Fusion 3</string>
+	<key>installed_size</key>
+	<integer>193664</integer>
+	<key>installer_item_hash</key>
+	<string>4eb857b96056471f6606d6565eafd220f594878f5cfee829e3539ba33cc71d0c</string>
+	<key>installer_item_location</key>
+	<string>apps/Suitcase Fusion 3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>68055</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>SuitcaseFusion3App</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>suitcaseFusion3.pkg</string>
+			<key>installed_size</key>
+			<integer>95012</integer>
+			<key>packageid</key>
+			<string>com.extensis.suitcase.fusion.suitcaseFusion3.suitcaseFusion3.pkg</string>
+			<key>version</key>
+			<string>14.1.1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>14.1.1</string>
+</dict>
+</plist>

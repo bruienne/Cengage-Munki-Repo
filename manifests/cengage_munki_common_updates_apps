@@ -10,6 +10,7 @@
 
 		<key>managed_installs</key>
 		<array>
+			<string>TeamViewer</string>
 		</array>
 
 		<key>managed_uninstalls</key>
@@ -33,6 +34,11 @@
 		<key>optional_installs</key>
 		<array>
 			<string>StuffIt Expander</string>
+			<string>WebExPlayer</string>
+			<string>CoRD</string>
+			<string>BalsamiqMockups</string>
+			<string>FileZilla</string>
+			<string>SuitcaseFusion3Reg</string>
 		</array>
 
 </dict>

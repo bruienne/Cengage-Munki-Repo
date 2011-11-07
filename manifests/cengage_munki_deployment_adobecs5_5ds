@@ -10,8 +10,7 @@
 
 		<key>managed_installs</key>
 		<array>
-			<string>Office2011</string>
-			<string>LyncMac2011</string>
+			<string>CreativeSuite5.5DesignStandard</string>
 		</array>
 
 		<key>managed_uninstalls</key>

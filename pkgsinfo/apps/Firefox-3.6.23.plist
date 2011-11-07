@@ -4,35 +4,37 @@
 <dict>
 	<key>autoremove</key>
 	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Firefox</string>
+	</array>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
 	</array>
 	<key>description</key>
-	<string>VMware Fusion 4 is recommended for home users, students and business professionals who are looking for the easiest, fastest and most reliable way to run Windows programs on their Macs without rebooting.</string>
+	<string></string>
 	<key>display_name</key>
-	<string>VMware Fusion 4</string>
+	<string>Firefox</string>
 	<key>installer_item_hash</key>
-	<string>3fa7468252a907904db44edfa55bac6e573295fa2acd8544899881c4efb2e7db</string>
+	<string>35ca7534af110b3aba84413743b47feebca6dc73eaca04ffa3c2fea0094e6ee2</string>
 	<key>installer_item_location</key>
-	<string>apps/VMware Fusion.dmg</string>
+	<string>apps/Firefox 3.6.23.dmg</string>
 	<key>installer_item_size</key>
-	<integer>193767</integer>
+	<integer>19236</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.vmware.fusion</string>
+			<string>org.mozilla.firefox</string>
 			<key>CFBundleName</key>
-			<string>VMware Fusion</string>
+			<string>Firefox</string>
 			<key>CFBundleShortVersionString</key>
-			<string>4.0.1</string>
-			<key>minosversion</key>
-			<string>10.6.7</string>
+			<string>3.6.23</string>
 			<key>path</key>
-			<string>/Applications/VMware Fusion.app</string>
+			<string>/Applications/Firefox.app</string>
 			<key>type</key>
 			<string>application</string>
 		</dict>
@@ -43,22 +45,18 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>VMware Fusion.app</string>
+			<string>Firefox.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.7</string>
+	<string>10.4.0</string>
 	<key>name</key>
-	<string>VMwareFusion4</string>
-	<key>postinstall_script</key>
-	<string>#!/bin/bash
-/bin/echo "5J00N-0915M-H8XY5-A01AH-3DR41" &gt; /Applications/VMware\ Fusion.app/Contents/Library/'License Key.txt'
-/bin/bash "/Applications/VMware Fusion.app/Contents/Library/Initialize VMware Fusion.tool" set</string>
+	<string>Firefox</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>4.0.1</string>
+	<string>3.6.23</string>
 </dict>
 </plist>

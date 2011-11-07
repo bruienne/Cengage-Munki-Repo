@@ -6,12 +6,13 @@
 
 		<key>included_manifests</key>
 		<array>
+			<string>cengage_munki_testing_laptop</string>
+			<string>cengage_munki_deployment_adobecs5_5ds</string>
+			<string>cengage_munki_deployment_office2011</string>
 		</array>
 
 		<key>managed_installs</key>
 		<array>
-			<string>Office2011</string>
-			<string>LyncMac2011</string>
 		</array>
 
 		<key>managed_uninstalls</key>
@@ -25,5 +26,4 @@
 		<key>optional_installs</key>
 		<array>
 		</array>
-
 </dict>
