@@ -52,7 +52,7 @@
 	<string>VMwareFusion4</string>
 	<key>postinstall_script</key>
 	<string>#!/bin/bash
-/bin/echo "5J00N-0915M-H8XY5-A01AH-3DR41" &gt; /Applications/VMware\ Fusion.app/Contents/Library/'License Key.txt'
+/bin/echo "XXXX-XXXX-XXXX-XXXXX-XXXXX" &gt; /Applications/VMware\ Fusion.app/Contents/Library/'License Key.txt'
 /bin/bash "/Applications/VMware Fusion.app/Contents/Library/Initialize VMware Fusion.tool" set</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
